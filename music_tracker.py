@@ -13,15 +13,14 @@ Implements a web scraper for the website https://pitchfork.com and
 gets the names of music artists releasing new music. Measures the
 current twitter popularity of these music artists using the Twitter API.
 """
-import string
-import csv
+import json
 from bs4 import BeautifulSoup
 import requests
 
 # global variables
 BASE_URL = "https://pitchfork.com"
 
-def get_new_music():
+def get_new_tracks():
     """
     Scrapes Pitchfork for newly released tracks and returns a dictionary
     of those tracks and the artists who made them.
@@ -39,7 +38,6 @@ def get_new_music():
 
         soup = BeautifulSoup(new_music_page.text, 'html.parser')
         artist_list_html = soup.find_all(class_ = 'artist-list')
-        track_title_html = soup.find_all(class_ = 'track-collection-item__title')
 
         # iterate over each track and assign values to music_dict
         for artist in artist_list_html:
@@ -63,15 +61,36 @@ def get_new_music():
 
     return music_dict
 
+def write_new_tracks_json(new_tracks):
+    """
+    Write new_tracks dictionary into a local json file
+
+    :param new_tracks: (dictionary) maps music artists to their music
+    """
+    # create json file of newly released track dictionary
+    with open('new_tracks.json', 'w') as new_tracks_json:
+        json.dump(new_tracks, new_tracks_json)
+
+def get_tweet_volume(artist):
+    """
+    Uses Twitter API to get Twitter Volume statistic on a specified
+    music artist.
+
+    :param artist: (string) artist we are getting twitter volume for
+    :return: (int) twitter volume statistic
+    """
+
+    # awaiting implementation
+
+
 def main():
-    # setup csv file with top row headings: Music Artist, Twitter Volume
-    file = csv.writer(open('music_trends.csv', 'w'))
-    file.writerow(["Music Artist", "Recent Tracks", "Twitter Volume"])
+    # create dictionary of newly released tracks
+    new_tracks = get_new_tracks()
 
-    new_music = get_new_music()
+    # write newly released tracks into json file
+    write_new_tracks_json(new_tracks)
 
-    for artist in new_music:
-        file.writerow([artist, ', '.join(new_music[artist]), "N/A"])
+
 
 if __name__ == '__main__':
     main()
