@@ -152,6 +152,18 @@ def get_spotify_album_popularity(spotify_album):
     album_popularity = album_popularity.replace(',', '')
     return album_popularity
 
+def get_spotify_album_image(spotify_album):
+    """
+    Extracts the URL of a 640 pixel width x 300 pixel height album art
+    image.
+
+    :param spotify_album: (string) the json formatted info of an album
+    :return: (string) the URL of the spotify_album's cover art image
+    """
+    album_image_index = spotify_album.find('\"height\" : 300')
+    album_image_url = spotify_album[album_image_index+29:album_image_index+93]
+    return album_image_url
+
 def get_new_albums():
     """
     Scrapes Pitchfork for newly released albums and returns a dictionary
@@ -243,10 +255,10 @@ def write_json(data, file_name):
 def add_popularity(new_music_dict):
     """
     Search through the keys of a music dictionary and add a Spotify API
-    'popularity' key for each piece of music.
+    'popularity' key for each entry of music.
 
-    :param music_dict: (dict) dictionary of music albums (tracks not yet
-                       implemented!)
+    :param new_music_dict: (dict) dictionary of music albums (tracks not
+                           yet implemented!)
     """
     for album in list(new_music_dict):
             album_id = get_spotify_item_id(search_spotify_item(album, "album"))
@@ -257,6 +269,25 @@ def add_popularity(new_music_dict):
                 new_albums_value['popularity'] = album_popularity
             else:
                 del new_music_dict[album]
+
+def add_album_image(new_music_dict):
+    """
+    Search through the keys of a music dictionary and add a Spotify API
+    'album_image_url' key for each entry of music.
+
+    :param new_music_dict: (dict) dictionary of music albums (tracks not
+                           yet implemented!)
+    """
+    for album in list(new_music_dict):
+        album_id = get_spotify_item_id(search_spotify_item(album, "album"))
+        album_json = get_spotify_album(album_id)
+        album_image_url = get_spotify_album_image(album_json)
+        if '{' not in album_image_url:
+            new_albums_value = new_music_dict[album][0]
+            new_albums_value['album_art_url'] = album_image_url
+        else:
+            del new_music_dict[album]
+
 
 def get_tweet_volume(artist):
     """
@@ -278,6 +309,9 @@ def main():
 
     # add popularity field to new_albums
     add_popularity(new_albums)
+
+    # add album_art_url field to new_albums
+    add_album_image(new_albums)
 
     # write new_tracks into a json file
     write_json(new_tracks, 'new_tracks')

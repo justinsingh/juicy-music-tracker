@@ -1,18 +1,11 @@
 {
-  "Who Is Jill Scott?: Words and Sounds, Vol. 1": [
-    {
-      "artists": [
-        "Jill Scott"
-      ],
-      "popularity": "54"
-    }
-  ],
   "El Chan": [
     {
       "artists": [
         "Bryce Dessner"
       ],
-      "popularity": "31"
+      "popularity": "31",
+      "album_art_url": "https://i.scdn.co/image/7b65d2d42f4f6841f9022197b615c569b5762aa6"
     }
   ],
   "Only You Can See It": [
@@ -20,7 +13,8 @@
       "artists": [
         "Emily Reo"
       ],
-      "popularity": "18"
+      "popularity": "18",
+      "album_art_url": "https://i.scdn.co/image/a52105c5199d1eff4c0e2f621e72e40a5ad01f1d"
     }
   ],
   "Essentials": [
@@ -28,7 +22,8 @@
       "artists": [
         "Patio"
       ],
-      "popularity": "1"
+      "popularity": "1",
+      "album_art_url": "https://i.scdn.co/image/f3794af1818ede0ae7e647607a1ee49c6171b233"
     }
   ],
   "Personal Rock": [
@@ -36,7 +31,8 @@
       "artists": [
         "Gramm"
       ],
-      "popularity": "22"
+      "popularity": "22",
+      "album_art_url": "https://i.scdn.co/image/7ab6f819a1a82d713a767bb65d4ea90231a21b50"
     }
   ],
   "Ventura": [
@@ -44,7 +40,8 @@
       "artists": [
         "Anderson .Paak"
       ],
-      "popularity": "68"
+      "popularity": "68",
+      "album_art_url": "https://i.scdn.co/image/cccdbb680b7abbbfa6442c1b5ee73e53e61f7380"
     }
   ],
   "No Geography": [
@@ -52,7 +49,8 @@
       "artists": [
         "The Chemical Brothers"
       ],
-      "popularity": "59"
+      "popularity": "59",
+      "album_art_url": "https://i.scdn.co/image/607477e0691f505a32a3a327c11a5b26d5c339a2"
     }
   ],
   "Ribbons": [
@@ -60,7 +58,8 @@
       "artists": [
         "Bibio"
       ],
-      "popularity": "49"
+      "popularity": "49",
+      "album_art_url": "https://i.scdn.co/image/099905f6ce25ae02161b7b33f691761a8b98ae75"
     }
   ],
   "Brutalism": [
@@ -68,7 +67,8 @@
       "artists": [
         "The Drums"
       ],
-      "popularity": "51"
+      "popularity": "51",
+      "album_art_url": "https://i.scdn.co/image/77eb7c17cafe5502fd32cb2936190f2b889abd1c"
     }
   ],
   "Long Story Short": [
@@ -77,7 +77,8 @@
         "Eto",
         "Superior"
       ],
-      "popularity": "42"
+      "popularity": "42",
+      "album_art_url": "https://i.scdn.co/image/cbe2e21f4a083642026c60eb68229aeafc6aa17c"
     }
   ],
   "Even in the Tremor": [
@@ -85,7 +86,8 @@
       "artists": [
         "Lady Lamb"
       ],
-      "popularity": "43"
+      "popularity": "43",
+      "album_art_url": "https://i.scdn.co/image/c5b0cad24047bf7126342781722a2e21bcc23094"
     }
   ],
   "What a Boost": [
@@ -93,7 +95,8 @@
       "artists": [
         "Rozi Plain"
       ],
-      "popularity": "26"
+      "popularity": "26",
+      "album_art_url": "https://i.scdn.co/image/a656d8526371758b077e20289b0b426b85abc18d"
     }
   ],
   "Signals Bulletin": [
@@ -102,7 +105,8 @@
         "Jan Jelinek",
         "Asuna"
       ],
-      "popularity": "25"
+      "popularity": "25",
+      "album_art_url": "https://i.scdn.co/image/573976a65868d23557801f514c5cbedc31075466"
     }
   ],
   "Free Spirit": [
@@ -110,7 +114,8 @@
       "artists": [
         "Khalid"
       ],
-      "popularity": "91"
+      "popularity": "91",
+      "album_art_url": "https://i.scdn.co/image/4474d5589348da0cf40c67cdd834f0f775310a9d"
     }
   ],
   "Just Another Gangsta": [
@@ -119,7 +124,8 @@
         "Birdman",
         "Juvenile"
       ],
-      "popularity": "56"
+      "popularity": "56",
+      "album_art_url": "https://i.scdn.co/image/6a08ebe1be5e792312f2c12c0ea26243934e94e6"
     }
   ],
   "Pantame": [
@@ -127,7 +133,8 @@
       "artists": [
         "Crudo Pimento"
       ],
-      "popularity": "30"
+      "popularity": "30",
+      "album_art_url": "https://i.scdn.co/image/6ef1ddb9ee25c9be233aa7acfc271d1050a49606"
     }
   ],
   "Haunted Items": [
@@ -135,7 +142,8 @@
       "artists": [
         "Frankie Cosmos"
       ],
-      "popularity": "38"
+      "popularity": "38",
+      "album_art_url": "https://i.scdn.co/image/05de9b434f97739e1807eda24dc4fcc5786a4495"
     }
   ],
   "Ambitions": [
@@ -143,7 +151,8 @@
       "artists": [
         "Prins Thomas"
       ],
-      "popularity": "60"
+      "popularity": "60",
+      "album_art_url": "https://i.scdn.co/image/8822123c41ceb7d290b57d2dcc409a2f09cd12ba"
     }
   ],
   "The Shape of Your Name": [
@@ -151,7 +160,8 @@
       "artists": [
         "Charlotte Cornfield"
       ],
-      "popularity": "22"
+      "popularity": "22",
+      "album_art_url": "https://i.scdn.co/image/26a708345727f9a452f985afb916166bcfb23151"
     }
   ],
   "The Seduction of Kansas": [
@@ -159,7 +169,8 @@
       "artists": [
         "Priests"
       ],
-      "popularity": "44"
+      "popularity": "44",
+      "album_art_url": "https://i.scdn.co/image/77d6d565cf28a3eab4c3e1ff5aedff853087ed53"
     }
   ],
   "Hiding Places": [
@@ -167,7 +178,8 @@
       "artists": [
         "woods + segal"
       ],
-      "popularity": "48"
+      "popularity": "48",
+      "album_art_url": "https://i.scdn.co/image/85a13acc38204d9f2ce6e2dc5521fe4578c190d1"
     }
   ],
   "Dog Whistle": [
@@ -175,7 +187,8 @@
       "artists": [
         "Show Me the Body"
       ],
-      "popularity": "47"
+      "popularity": "47",
+      "album_art_url": "https://i.scdn.co/image/2a83e0964f35887da6a1c3abde3a6b7921abb6c6"
     }
   ],
   "We Need to Talk": [
@@ -183,7 +196,8 @@
       "artists": [
         "Tayla Parx"
       ],
-      "popularity": "54"
+      "popularity": "54",
+      "album_art_url": "https://i.scdn.co/image/8b224140b7b3bc3ed885c9b709a547e32cbfe767"
     }
   ],
   "The Slider": [
@@ -191,7 +205,8 @@
       "artists": [
         "T. Rex"
       ],
-      "popularity": "43"
+      "popularity": "43",
+      "album_art_url": "https://i.scdn.co/image/59b9b54dca5981cf95f021ca2c4857aa445d6807"
     }
   ],
   "Autoclave": [
@@ -199,7 +214,8 @@
       "artists": [
         "Autoclave"
       ],
-      "popularity": "31"
+      "popularity": "31",
+      "album_art_url": "https://i.scdn.co/image/f45afdb397892f8746a0cf103ad8a29080a766b1"
     }
   ],
   "Deserted": [
@@ -207,7 +223,8 @@
       "artists": [
         "Mekons"
       ],
-      "popularity": "25"
+      "popularity": "25",
+      "album_art_url": "https://i.scdn.co/image/f0a74246ec111438ff326b923abf775d86cb455f"
     }
   ],
   "Thalassa": [
@@ -215,7 +232,8 @@
       "artists": [
         "Ioanna Gika"
       ],
-      "popularity": "34"
+      "popularity": "34",
+      "album_art_url": "https://i.scdn.co/image/2bc8c558c4e3c4579cc38451f981b4a2fe768e82"
     }
   ],
   "Natural Facts": [
@@ -223,7 +241,8 @@
       "artists": [
         "Garcia Peoples"
       ],
-      "popularity": "31"
+      "popularity": "31",
+      "album_art_url": "https://i.scdn.co/image/ba5a2c3a8c4d41bc03dc22bfc7a34b4959ddda5e"
     }
   ],
   "Titanic Rising": [
@@ -231,7 +250,8 @@
       "artists": [
         "Weyes Blood"
       ],
-      "popularity": "61"
+      "popularity": "61",
+      "album_art_url": "https://i.scdn.co/image/2b707f8c7d4c3ec6b262d60009ff6533b504d34c"
     }
   ],
   "Morbid Stuff": [
@@ -239,7 +259,8 @@
       "artists": [
         "PUP"
       ],
-      "popularity": "63"
+      "popularity": "63",
+      "album_art_url": "https://i.scdn.co/image/b60f7d3401966dcd57e4ca2f08b0a279c1e585a1"
     }
   ],
   "Crackheads Live Longer Than Vegans": [
@@ -247,7 +268,8 @@
       "artists": [
         "Chris Crack"
       ],
-      "popularity": "29"
+      "popularity": "29",
+      "album_art_url": "https://i.scdn.co/image/29c2040a30722adb03badcbc22a5ee842bbd0c93"
     }
   ],
   "In the Shape of a Storm": [
@@ -255,7 +277,8 @@
       "artists": [
         "Damien Jurado"
       ],
-      "popularity": "34"
+      "popularity": "34",
+      "album_art_url": "https://i.scdn.co/image/aa94167d1998a52c2f0ba9f7b6ad1e3ab59e2690"
     }
   ],
   "Triad": [
@@ -263,7 +286,8 @@
       "artists": [
         "Triad God"
       ],
-      "popularity": "36"
+      "popularity": "36",
+      "album_art_url": "https://i.scdn.co/image/3e7ef5989fae1961c1e7eed946dba2f6f8aab014"
     }
   ]
 }
