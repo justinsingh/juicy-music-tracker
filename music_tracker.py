@@ -62,8 +62,6 @@ def get_spotify_access_token(spotify_client_id, spotify_client_secret):
     response_data = json.loads(post_request.text)
     return response_data
 
-
-
 def search_spotify_item(query_keywords, item_type):
     """
     Use Spotify API to search for an item (track, album, or artist)
@@ -76,6 +74,7 @@ def search_spotify_item(query_keywords, item_type):
     spotify_access_token = get_spotify_access_token(SPOTIFY_CLIENT_ID,
                                                     SPOTIFY_CLIENT_SECRET)
     spotify_headers = {
+        'Content-Type': 'application/json',
         'Authorization': 'Bearer ' + spotify_access_token['access_token']
     }
 
@@ -113,6 +112,33 @@ def get_spotify_album(item_id):
     query_url = BASE_SPOTIFY_URL + '/albums/' + item_id
 
     return requests.get(url = query_url, headers = spotify_headers).text
+
+def get_many_spotify_albums(item_id_list):
+    """
+    Get complete json text data from a maximum of 20 albums specified
+    by a list of item ID's.
+
+    :param item_id_list: (list of strings) item ID of albums
+    :return: (json text) the json text data of each album specified
+             in item_id_list
+    """
+    spotify_access_token = get_spotify_access_token(SPOTIFY_CLIENT_ID,
+                                                    SPOTIFY_CLIENT_SECRET)
+
+    spotify_headers = {
+        'Authorization': 'Bearer ' + spotify_access_token['access_token']
+    }
+
+    item_id_list_string = ''
+
+    for id in item_id_list:
+        item_id_list_string += id + ','
+
+    query_url = BASE_SPOTIFY_URL + '/albums/?ids=' + \
+                item_id_list_string.rstrip(',')
+
+    return requests.get(url = query_url, headers = spotify_headers).text
+
 
 def get_new_albums():
     """
