@@ -249,7 +249,7 @@ def write_json(data, file_name):
     :param file_name: (string) file name we are using for the json file
     """
     # create json file of given data
-    with open(file_name + '.json', 'w') as music_data_file:
+    with open('data/' + file_name + '.json', 'w') as music_data_file:
         json.dump(data, music_data_file, indent = 2)
 
 def add_popularity(new_music_dict):
