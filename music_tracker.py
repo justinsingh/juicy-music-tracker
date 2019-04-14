@@ -38,7 +38,7 @@ def get_spotify_access_token(spotify_client_id, spotify_client_secret):
     :param client_id: (string) client ID of Spotify developer app
     :param client_secret: (string) client secret of Spotify developer
                           app
-    :return: (json text) json response from the POST request including
+    :return: (string) json response from the POST request including
              the access token we are looking for
     """
 
@@ -69,7 +69,7 @@ def search_spotify_item(query_keywords, item_type):
     :param query_keywords: (string) keywords of item we are trying to
                            search
     :param item_type: (string) item type we are searching for
-    :return: (json text) information on item we searched for
+    :return: (string) json formatted information on item we searched for
     """
     spotify_access_token = get_spotify_access_token(SPOTIFY_CLIENT_ID,
                                                     SPOTIFY_CLIENT_SECRET)
@@ -87,7 +87,7 @@ def get_spotify_item_id(item_json_str):
     """
     Extract the item ID of a Spotify item json text
 
-    :param item_json_str: (json text) a returned json text from the
+    :param item_json_str: (string) returned json formatted info from the
                           function search_spotify_item
     :return: (string) the item ID of a searched Spotify item
     """
@@ -101,7 +101,7 @@ def get_spotify_album(item_id):
     API.
 
     :param item_id: (string) the Spotify ID for the album being searched
-    :return: (json text) the json text data of an album on Spotify
+    :return: (string) json formatted info of an album on Spotify
     """
     spotify_access_token = get_spotify_access_token(SPOTIFY_CLIENT_ID,
                                                     SPOTIFY_CLIENT_SECRET)
@@ -119,7 +119,7 @@ def get_many_spotify_albums(item_id_list):
     by a list of item ID's.
 
     :param item_id_list: (list of strings) item ID of albums
-    :return: (json text) the json text data of each album specified
+    :return: (string) json formatted data of each album specified
              in item_id_list
     """
     spotify_access_token = get_spotify_access_token(SPOTIFY_CLIENT_ID,
@@ -139,6 +139,18 @@ def get_many_spotify_albums(item_id_list):
 
     return requests.get(url = query_url, headers = spotify_headers).text
 
+def get_spotify_album_popularity(spotify_album):
+    """
+    Extracts the popularity field of a spotify album json text
+
+    :param spotify_album: (string) the json formatted info of an album
+    :return: (string) the number in string type of an album's popularity
+    """
+    album_popularity_index = spotify_album.find('\"popularity\" :')
+    album_popularity = spotify_album[
+                       album_popularity_index+15:album_popularity_index+17]
+    album_popularity.replace(',', '')
+    return album_popularity
 
 def get_new_albums():
     """
