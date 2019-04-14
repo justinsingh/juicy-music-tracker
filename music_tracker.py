@@ -36,7 +36,8 @@ def get_spotify_access_token(spotify_client_id, spotify_client_secret):
     token required to make GET requests to the Spotify API.
 
     :param client_id: (string) client ID of Spotify developer app
-    :param client_secret: (string) client secret of Spotify developer app
+    :param client_secret: (string) client secret of Spotify developer
+                          app
     :return: (json text) json response from the POST request including
              the access token we are looking for
     """
@@ -65,7 +66,7 @@ def get_spotify_access_token(spotify_client_id, spotify_client_secret):
 
 def search_spotify_item(query_keywords, item_type):
     """
-    Use Spotify API to search for an item, such a track, album, or artist.
+    Use Spotify API to search for an item (track, album, or artist)
 
     :param query_keywords: (string) keywords of item we are trying to
                            search
@@ -87,13 +88,31 @@ def get_spotify_item_id(item_json_str):
     """
     Extract the item ID of a Spotify item json text
 
-    :param item_json_str: (json text) a returned json text from the function
-                          search_spotify_item
+    :param item_json_str: (json text) a returned json text from the
+                          function search_spotify_item
     :return: (string) the item ID of a searched Spotify item
     """
-    album_id_index = item_json_str.find('\"id\" : \"')
-    album_id = item_json_str[album_id_index + 8:album_id_index + 30]
+    album_id_index = item_json_str.find('spotify:album:')
+    album_id = item_json_str[album_id_index + 14:album_id_index + 36]
     return album_id
+
+def get_spotify_album(item_id):
+    """
+    Get the complete json text data of an Album object from the Spotify
+    API.
+
+    :param item_id: (string) the Spotify ID for the album being searched
+    :return: (json text) the json text data of an album on Spotify
+    """
+    spotify_access_token = get_spotify_access_token(SPOTIFY_CLIENT_ID,
+                                                    SPOTIFY_CLIENT_SECRET)
+
+    spotify_headers = {
+        'Authorization': 'Bearer ' + spotify_access_token['access_token']
+    }
+    query_url = BASE_SPOTIFY_URL + '/albums/' + item_id
+
+    return requests.get(url = query_url, headers = spotify_headers).text
 
 def get_new_albums():
     """
@@ -117,7 +136,7 @@ def get_new_albums():
         review_list_html = soup.find_all(class_ = 'review')
 
         for review in review_list_html:
-            #decompose genre and review author meta info from review html
+            #decompose meta info from review html
             extra_info = review.find(class_ = 'review__meta')
             extra_info.decompose()
 
@@ -140,8 +159,8 @@ def get_new_tracks():
     Scrapes Pitchfork for newly released tracks and returns a dictionary
     of those tracks and the artists who made them.
 
-    :return: (dictionary) key = music artist (string), value = newly released
-            track(s) (list of strings)
+    :return: (dictionary) key = music artist (string), value = newly
+             released track(s) (list of strings)
     """
     # music dictionary that maps artist names to new music titles
     new_tracks = {}
@@ -206,8 +225,6 @@ def main():
 
     #write new_albums into a json file
     write_json(new_albums, 'new_albums')
-
-
 
 if __name__ == '__main__':
     main()
