@@ -111,7 +111,7 @@ def write_json(data, file_name):
     """
     # create json file of given data
     with open(file_name + '.json', 'w') as music_data_file:
-        json.dump(data, music_data_file)
+        json.dump(data, music_data_file, indent = 2)
 
 def get_tweet_volume(artist):
     """
