@@ -3,63 +3,72 @@
     {
       "artists": [
         "Jill Scott"
-      ]
+      ],
+      "popularity": "54"
     }
   ],
   "El Chan": [
     {
       "artists": [
         "Bryce Dessner"
-      ]
+      ],
+      "popularity": "31"
     }
   ],
   "Only You Can See It": [
     {
       "artists": [
         "Emily Reo"
-      ]
+      ],
+      "popularity": "18"
     }
   ],
   "Essentials": [
     {
       "artists": [
         "Patio"
-      ]
+      ],
+      "popularity": "1"
     }
   ],
   "Personal Rock": [
     {
       "artists": [
         "Gramm"
-      ]
+      ],
+      "popularity": "22"
     }
   ],
   "Ventura": [
     {
       "artists": [
         "Anderson .Paak"
-      ]
+      ],
+      "popularity": "68"
     }
   ],
   "No Geography": [
     {
       "artists": [
         "The Chemical Brothers"
-      ]
+      ],
+      "popularity": "59"
     }
   ],
   "Ribbons": [
     {
       "artists": [
         "Bibio"
-      ]
+      ],
+      "popularity": "49"
     }
   ],
   "Brutalism": [
     {
       "artists": [
         "The Drums"
-      ]
+      ],
+      "popularity": "51"
     }
   ],
   "Long Story Short": [
@@ -67,28 +76,24 @@
       "artists": [
         "Eto",
         "Superior"
-      ]
-    }
-  ],
-  "Kill This Love EP": [
-    {
-      "artists": [
-        "BLACKPINK"
-      ]
+      ],
+      "popularity": "42"
     }
   ],
   "Even in the Tremor": [
     {
       "artists": [
         "Lady Lamb"
-      ]
+      ],
+      "popularity": "43"
     }
   ],
   "What a Boost": [
     {
       "artists": [
         "Rozi Plain"
-      ]
+      ],
+      "popularity": "26"
     }
   ],
   "Signals Bulletin": [
@@ -96,14 +101,16 @@
       "artists": [
         "Jan Jelinek",
         "Asuna"
-      ]
+      ],
+      "popularity": "25"
     }
   ],
   "Free Spirit": [
     {
       "artists": [
         "Khalid"
-      ]
+      ],
+      "popularity": "91"
     }
   ],
   "Just Another Gangsta": [
@@ -111,147 +118,152 @@
       "artists": [
         "Birdman",
         "Juvenile"
-      ]
-    }
-  ],
-  "Saturday the 14th EP": [
-    {
-      "artists": [
-        "Partner"
-      ]
+      ],
+      "popularity": "56"
     }
   ],
   "Pantame": [
     {
       "artists": [
         "Crudo Pimento"
-      ]
+      ],
+      "popularity": "30"
     }
   ],
   "Haunted Items": [
     {
       "artists": [
         "Frankie Cosmos"
-      ]
+      ],
+      "popularity": "38"
     }
   ],
   "Ambitions": [
     {
       "artists": [
         "Prins Thomas"
-      ]
-    }
-  ],
-  "\u0648\u064a\u0646 \u0643\u0646\u064a\u062a \u0628\u064a \u0661\u0661\u200b/\u200b\u0669\u061f? \u201cWhere Were You on 9\u200b/\u200b11\u200b?\u200b\u201d EP": [
-    {
-      "artists": [
-        "HARAM"
-      ]
+      ],
+      "popularity": "60"
     }
   ],
   "The Shape of Your Name": [
     {
       "artists": [
         "Charlotte Cornfield"
-      ]
+      ],
+      "popularity": "22"
     }
   ],
   "The Seduction of Kansas": [
     {
       "artists": [
         "Priests"
-      ]
+      ],
+      "popularity": "44"
     }
   ],
   "Hiding Places": [
     {
       "artists": [
         "woods + segal"
-      ]
+      ],
+      "popularity": "48"
     }
   ],
   "Dog Whistle": [
     {
       "artists": [
         "Show Me the Body"
-      ]
+      ],
+      "popularity": "47"
     }
   ],
   "We Need to Talk": [
     {
       "artists": [
         "Tayla Parx"
-      ]
+      ],
+      "popularity": "54"
     }
   ],
   "The Slider": [
     {
       "artists": [
         "T. Rex"
-      ]
+      ],
+      "popularity": "43"
     }
   ],
   "Autoclave": [
     {
       "artists": [
         "Autoclave"
-      ]
+      ],
+      "popularity": "31"
     }
   ],
   "Deserted": [
     {
       "artists": [
         "Mekons"
-      ]
+      ],
+      "popularity": "25"
     }
   ],
   "Thalassa": [
     {
       "artists": [
         "Ioanna Gika"
-      ]
+      ],
+      "popularity": "34"
     }
   ],
   "Natural Facts": [
     {
       "artists": [
         "Garcia Peoples"
-      ]
+      ],
+      "popularity": "31"
     }
   ],
   "Titanic Rising": [
     {
       "artists": [
         "Weyes Blood"
-      ]
+      ],
+      "popularity": "61"
     }
   ],
   "Morbid Stuff": [
     {
       "artists": [
         "PUP"
-      ]
+      ],
+      "popularity": "63"
     }
   ],
   "Crackheads Live Longer Than Vegans": [
     {
       "artists": [
         "Chris Crack"
-      ]
+      ],
+      "popularity": "29"
     }
   ],
   "In the Shape of a Storm": [
     {
       "artists": [
         "Damien Jurado"
-      ]
+      ],
+      "popularity": "34"
     }
   ],
   "Triad": [
     {
       "artists": [
         "Triad God"
-      ]
+      ],
+      "popularity": "36"
     }
   ]
 }
