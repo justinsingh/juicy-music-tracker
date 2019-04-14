@@ -1,119 +1,257 @@
 {
-  "Bryce Dessner": [
-    "El Chan"
+  "El Chan": [
+    {
+      "artists": [
+        "Bryce Dessner"
+      ]
+    }
   ],
-  "Emily Reo": [
-    "Only You Can See It"
+  "Only You Can See It": [
+    {
+      "artists": [
+        "Emily Reo"
+      ]
+    }
   ],
-  "Patio": [
-    "Essentials"
+  "Essentials": [
+    {
+      "artists": [
+        "Patio"
+      ]
+    }
   ],
-  "Gramm": [
-    "Personal Rock"
+  "Personal Rock": [
+    {
+      "artists": [
+        "Gramm"
+      ]
+    }
   ],
-  "Anderson .Paak": [
-    "Ventura"
+  "Ventura": [
+    {
+      "artists": [
+        "Anderson .Paak"
+      ]
+    }
   ],
-  "The Chemical Brothers": [
-    "No Geography"
+  "No Geography": [
+    {
+      "artists": [
+        "The Chemical Brothers"
+      ]
+    }
   ],
-  "Bibio": [
-    "Ribbons"
+  "Ribbons": [
+    {
+      "artists": [
+        "Bibio"
+      ]
+    }
   ],
-  "The Drums": [
-    "Brutalism"
+  "Brutalism": [
+    {
+      "artists": [
+        "The Drums"
+      ]
+    }
   ],
-  "Eto": [
-    "Long Story Short"
+  "Long Story Short": [
+    {
+      "artists": [
+        "Eto",
+        "Superior"
+      ]
+    }
   ],
-  "Superior": [
-    "Long Story Short"
+  "Kill This Love EP": [
+    {
+      "artists": [
+        "BLACKPINK"
+      ]
+    }
   ],
-  "BLACKPINK": [
-    "Kill This Love EP"
+  "Even in the Tremor": [
+    {
+      "artists": [
+        "Lady Lamb"
+      ]
+    }
   ],
-  "Lady Lamb": [
-    "Even in the Tremor"
+  "What a Boost": [
+    {
+      "artists": [
+        "Rozi Plain"
+      ]
+    }
   ],
-  "Rozi Plain": [
-    "What a Boost"
+  "Signals Bulletin": [
+    {
+      "artists": [
+        "Jan Jelinek",
+        "Asuna"
+      ]
+    }
   ],
-  "Jan Jelinek": [
-    "Signals Bulletin"
+  "Free Spirit": [
+    {
+      "artists": [
+        "Khalid"
+      ]
+    }
   ],
-  "Asuna": [
-    "Signals Bulletin"
+  "Just Another Gangsta": [
+    {
+      "artists": [
+        "Birdman",
+        "Juvenile"
+      ]
+    }
   ],
-  "Khalid": [
-    "Free Spirit"
+  "Saturday the 14th EP": [
+    {
+      "artists": [
+        "Partner"
+      ]
+    }
   ],
-  "Birdman": [
-    "Just Another Gangsta"
+  "Pantame": [
+    {
+      "artists": [
+        "Crudo Pimento"
+      ]
+    }
   ],
-  "Juvenile": [
-    "Just Another Gangsta"
+  "Haunted Items": [
+    {
+      "artists": [
+        "Frankie Cosmos"
+      ]
+    }
   ],
-  "Partner": [
-    "Saturday the 14th EP"
+  "Ambitions": [
+    {
+      "artists": [
+        "Prins Thomas"
+      ]
+    }
   ],
-  "Crudo Pimento": [
-    "Pantame"
+  "\u0648\u064a\u0646 \u0643\u0646\u064a\u062a \u0628\u064a \u0661\u0661\u200b/\u200b\u0669\u061f? \u201cWhere Were You on 9\u200b/\u200b11\u200b?\u200b\u201d EP": [
+    {
+      "artists": [
+        "HARAM"
+      ]
+    }
   ],
-  "Frankie Cosmos": [
-    "Haunted Items"
+  "The Shape of Your Name": [
+    {
+      "artists": [
+        "Charlotte Cornfield"
+      ]
+    }
   ],
-  "Prins Thomas": [
-    "Ambitions"
+  "The Seduction of Kansas": [
+    {
+      "artists": [
+        "Priests"
+      ]
+    }
   ],
-  "HARAM": [
-    "\u0648\u064a\u0646 \u0643\u0646\u064a\u062a \u0628\u064a \u0661\u0661\u200b/\u200b\u0669\u061f? \u201cWhere Were You on 9\u200b/\u200b11\u200b?\u200b\u201d EP"
+  "Hiding Places": [
+    {
+      "artists": [
+        "woods + segal"
+      ]
+    }
   ],
-  "Charlotte Cornfield": [
-    "The Shape of Your Name"
+  "Dog Whistle": [
+    {
+      "artists": [
+        "Show Me the Body"
+      ]
+    }
   ],
-  "Priests": [
-    "The Seduction of Kansas"
+  "We Need to Talk": [
+    {
+      "artists": [
+        "Tayla Parx"
+      ]
+    }
   ],
-  "woods + segal": [
-    "Hiding Places"
-  ],
-  "Show Me the Body": [
-    "Dog Whistle"
-  ],
-  "Tayla Parx": [
-    "We Need to Talk"
-  ],
-  "T. Rex": [
-    "The Slider"
+  "The Slider": [
+    {
+      "artists": [
+        "T. Rex"
+      ]
+    }
   ],
   "Autoclave": [
-    "Autoclave"
+    {
+      "artists": [
+        "Autoclave"
+      ]
+    }
   ],
-  "Mekons": [
-    "Deserted"
+  "Deserted": [
+    {
+      "artists": [
+        "Mekons"
+      ]
+    }
   ],
-  "Ioanna Gika": [
-    "Thalassa"
+  "Thalassa": [
+    {
+      "artists": [
+        "Ioanna Gika"
+      ]
+    }
   ],
-  "Garcia Peoples": [
-    "Natural Facts"
+  "Natural Facts": [
+    {
+      "artists": [
+        "Garcia Peoples"
+      ]
+    }
   ],
-  "Weyes Blood": [
-    "Titanic Rising"
+  "Titanic Rising": [
+    {
+      "artists": [
+        "Weyes Blood"
+      ]
+    }
   ],
-  "PUP": [
-    "Morbid Stuff"
+  "Morbid Stuff": [
+    {
+      "artists": [
+        "PUP"
+      ]
+    }
   ],
-  "Chris Crack": [
-    "Crackheads Live Longer Than Vegans"
+  "Crackheads Live Longer Than Vegans": [
+    {
+      "artists": [
+        "Chris Crack"
+      ]
+    }
   ],
-  "Damien Jurado": [
-    "In the Shape of a Storm"
+  "In the Shape of a Storm": [
+    {
+      "artists": [
+        "Damien Jurado"
+      ]
+    }
   ],
-  "Triad God": [
-    "Triad"
+  "Triad": [
+    {
+      "artists": [
+        "Triad God"
+      ]
+    }
   ],
-  "Logic": [
-    "Supermarket"
+  "Supermarket": [
+    {
+      "artists": [
+        "Logic"
+      ]
+    }
   ]
 }

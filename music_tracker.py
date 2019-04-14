@@ -25,8 +25,9 @@ def get_new_albums():
     Scrapes Pitchfork for newly released albums and returns a dictionary
     of those albums and the artists who made them.
 
-    :return: (dictionary) key = music artist (string), value = newly
-             released album (string)
+    :return: (dictionary) key = album name (string),
+            value = list of dicts mapping "artists" string to list of
+            artists who made the album
     """
     new_albums = {}
 
@@ -51,14 +52,10 @@ def get_new_albums():
             # get name of current album
             album_name = review.find('h2').get_text()
 
-            # iterate over artists in the list of artists who made the album
-            # if artist is already in new_albums, append to the list at
-            # new_albums[album_name]]
-            for artist_name in current_artist_list:
-                if artist_name in new_albums:
-                    new_albums[artist_name].append(album_name)
-                else:
-                    new_albums[artist_name] = [album_name]
+            # update new_albums dict for key = album_name,
+            # and value = list of dicts, the first being
+            # a mapping of "artists" to current_artist_list
+            new_albums[album_name] = [{"artists": current_artist_list}]
 
     return new_albums
 
