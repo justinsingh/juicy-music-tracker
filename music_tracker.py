@@ -29,7 +29,6 @@ BASE_PITCHFORK_URL = "https://pitchfork.com"
 BASE_SPOTIFY_URL = "https://api.spotify.com/v1"
 SPOTIFY_CLIENT_ID = spotify_credentials["CLIENT_ID"]
 SPOTIFY_CLIENT_SECRET = spotify_credentials["CLIENT_SECRET"]
-SPOTIFY_ACCESS_TOKEN = spotify_credentials["ACCESS_TOKEN"]
 
 def get_spotify_access_token(spotify_client_id, spotify_client_secret):
     """
@@ -73,14 +72,28 @@ def search_spotify_item(query_keywords, item_type):
     :param item_type: (string) item type we are searching for
     :return: (json text) information on item we searched for
     """
+    spotify_access_token = get_spotify_access_token(SPOTIFY_CLIENT_ID,
+                                                    SPOTIFY_CLIENT_SECRET)
     spotify_headers = {
-        'Authorization': 'Bearer ' + SPOTIFY_ACCESS_TOKEN
+        'Authorization': 'Bearer ' + spotify_access_token['access_token']
     }
 
     query_url = BASE_SPOTIFY_URL + '/search?q=' + query_keywords.replace(' ',
                                     '%20') + '&type=' + item_type + '&limit=1'
 
     return requests.get(url = query_url, headers = spotify_headers).text
+
+def get_spotify_item_id(item_json_str):
+    """
+    Extract the item ID of a Spotify item json text
+
+    :param item_json_str: (json text) a returned json text from the function
+                          search_spotify_item
+    :return: (string) the item ID of a searched Spotify item
+    """
+    album_id_index = item_json_str.find('\"id\" : \"')
+    album_id = item_json_str[album_id_index + 8:album_id_index + 30]
+    return album_id
 
 def get_new_albums():
     """
@@ -193,6 +206,8 @@ def main():
 
     #write new_albums into a json file
     write_json(new_albums, 'new_albums')
+
+
 
 if __name__ == '__main__':
     main()
