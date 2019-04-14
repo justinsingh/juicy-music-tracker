@@ -1,76 +1,172 @@
 {
-  "BTS": [
-    "HOME"
+  "HOME": [
+    {
+      "artists": [
+        "BTS"
+      ]
+    }
   ],
-  "Tame Impala": [
-    "Borderline"
+  "Borderline": [
+    {
+      "artists": [
+        "Tame Impala"
+      ]
+    }
   ],
-  "KAZU": [
-    "Salty"
+  "Salty": [
+    {
+      "artists": [
+        "KAZU"
+      ]
+    }
   ],
-  "Yu Su": [
-    "Little Birds, Moonbath [ft. Michelle Helene Mackenzie]"
+  "Little Birds, Moonbath [ft. Michelle Helene Mackenzie]": [
+    {
+      "artists": [
+        "Yu Su"
+      ]
+    }
   ],
-  "Charly Bliss": [
-    "Hard to Believe"
+  "Hard to Believe": [
+    {
+      "artists": [
+        "Charly Bliss"
+      ]
+    }
   ],
-  "Lil Uzi Vert": [
-    "Sanguine Paradise",
-    "Free Uzi"
+  "Sanguine Paradise": [
+    {
+      "artists": [
+        "Lil Uzi Vert"
+      ]
+    }
   ],
-  "Crumb": [
-    "Nina"
+  "Nina": [
+    {
+      "artists": [
+        "Crumb"
+      ]
+    }
   ],
-  "Schoolboy Q": [
-    "CHopstix [ft. Travis Scott]"
+  "CHopstix [ft. Travis Scott]": [
+    {
+      "artists": [
+        "Schoolboy Q"
+      ]
+    }
   ],
-  "PJ Harvey": [
-    "Descending"
+  "Descending": [
+    {
+      "artists": [
+        "PJ Harvey"
+      ]
+    }
   ],
-  "Hamilton Scalpel": [
-    "Uprated Nite Zone"
+  "Uprated Nite Zone": [
+    {
+      "artists": [
+        "Hamilton Scalpel"
+      ]
+    }
   ],
-  "Lil Nas X": [
-    "Old Town Road (Remix) [ft. Billy Ray Cyrus]"
+  "Old Town Road (Remix) [ft. Billy Ray Cyrus]": [
+    {
+      "artists": [
+        "Lil Nas X"
+      ]
+    }
   ],
-  "Pile": [
-    "The Soft Hands of Stephen Miller"
+  "The Soft Hands of Stephen Miller": [
+    {
+      "artists": [
+        "Pile"
+      ]
+    }
   ],
-  "Saweetie": [
-    "Trick"
+  "Trick": [
+    {
+      "artists": [
+        "Saweetie"
+      ]
+    }
   ],
-  "Oso Leone": [
-    "Virtual U"
+  "Virtual U": [
+    {
+      "artists": [
+        "Oso Leone"
+      ]
+    }
   ],
-  "Vampire Weekend": [
-    "Unbearably White",
-    "This Life"
+  "Unbearably White": [
+    {
+      "artists": [
+        "Vampire Weekend"
+      ]
+    }
   ],
-  "Hot Chip": [
-    "Hungry Child"
+  "Hungry Child": [
+    {
+      "artists": [
+        "Hot Chip"
+      ]
+    }
   ],
-  "Big Thief": [
-    "Cattails"
+  "This Life": [
+    {
+      "artists": [
+        "Vampire Weekend"
+      ]
+    }
   ],
-  "Mac DeMarco": [
-    "All of Our Yesterdays"
+  "Cattails": [
+    {
+      "artists": [
+        "Big Thief"
+      ]
+    }
   ],
-  "Ariana Grande": [
-    "Monopoly"
+  "All of Our Yesterdays": [
+    {
+      "artists": [
+        "Mac DeMarco"
+      ]
+    }
   ],
-  "Victoria Mon\u00e9t": [
-    "Monopoly"
+  "Monopoly": [
+    {
+      "artists": [
+        "Ariana Grande",
+        "Victoria Mon\u00e9t"
+      ]
+    }
   ],
-  "Priests": [
-    "Jesus\u2019 Son"
+  "Jesus\u2019 Son": [
+    {
+      "artists": [
+        "Priests"
+      ]
+    }
   ],
-  "Modest Mouse": [
-    "Poison the Well"
+  "Poison the Well": [
+    {
+      "artists": [
+        "Modest Mouse"
+      ]
+    }
   ],
-  "Rosal\u00eda": [
-    "Con Altura"
+  "Free Uzi": [
+    {
+      "artists": [
+        "Lil Uzi Vert"
+      ]
+    }
   ],
-  "J Balvin": [
-    "Con Altura"
+  "Con Altura": [
+    {
+      "artists": [
+        "Rosal\u00eda",
+        "J Balvin"
+      ]
+    }
   ]
 }

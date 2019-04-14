@@ -92,14 +92,7 @@ def get_new_tracks():
             track_name = track_name.replace('“', '')
             track_name = track_name.replace('”', '')
 
-            # iterate over artists in the list of artists who made the track
-            # if artist is already in new_tracks, append to the list at
-            # new_tracks[artist_name]
-            for artist_name in current_artist_list:
-                if artist_name in new_tracks:
-                    new_tracks[artist_name].append(track_name)
-                else:
-                    new_tracks[artist_name] = [track_name]
+            new_tracks[track_name] = [{"artists": current_artist_list}]
 
     return new_tracks
 
