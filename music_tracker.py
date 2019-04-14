@@ -3,22 +3,84 @@
 # Program:     Trending Music Tracker
 # Purpose:     Use a web scraper on the Pitchfork website to get
 #              the names of music artists releasing new music.
-#              Assess their popularity on Twitter using the Twitter API.
+#              Assess their popularity on Spotify and Twitter using the
+#              Spotify and Twitter API.
 #
 # Author:       Justin Singh
 #
 # ----------------------------------------------------------------------
 """
 Implements a web scraper for the website https://pitchfork.com and
-gets the names of music artists releasing new music. Measures the
-current twitter popularity of these music artists using the Twitter API.
+gets data on new music tracks and albums. Measures current Spotify and
+Twitter popularity of albums and tracks using Spotify and Twitter APIs.
 """
+import base64
 import json
 from bs4 import BeautifulSoup
 import requests
 
+# extract dictionary of API credentials from credentials.json
+with open('credentials.json') as credentials_json:
+    credentials = json.load(credentials_json)
+    spotify_credentials = credentials["spotify_credentials"]
+
 # global variables
-BASE_URL = "https://pitchfork.com"
+BASE_PITCHFORK_URL = "https://pitchfork.com"
+BASE_SPOTIFY_URL = "https://api.spotify.com/v1"
+SPOTIFY_CLIENT_ID = spotify_credentials["CLIENT_ID"]
+SPOTIFY_CLIENT_SECRET = spotify_credentials["CLIENT_SECRET"]
+SPOTIFY_ACCESS_TOKEN = spotify_credentials["ACCESS_TOKEN"]
+
+def get_spotify_access_token(spotify_client_id, spotify_client_secret):
+    """
+    Make POST request to Spotify Accounts service to receive an access
+    token required to make GET requests to the Spotify API.
+
+    :param client_id: (string) client ID of Spotify developer app
+    :param client_secret: (string) client secret of Spotify developer app
+    :return: (json text) json response from the POST request including
+             the access token we are looking for
+    """
+
+    auth_str = spotify_client_id + ':' + spotify_client_secret
+    b64_auth_str = base64.urlsafe_b64encode(auth_str.encode()).decode()
+
+    spotify_headers = {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Authorization': 'Basic ' + b64_auth_str
+    }
+
+    spotify_data = {
+        'grant_type': 'client_credentials'
+    }
+
+    post_request = requests.post(url =
+                                 'https://accounts.spotify.com/api/token',
+                                 data = spotify_data,
+                                 headers = spotify_headers)
+
+    response_data = json.loads(post_request.text)
+    return response_data
+
+
+
+def search_spotify_item(query_keywords, item_type):
+    """
+    Use Spotify API to search for an item, such a track, album, or artist.
+
+    :param query_keywords: (string) keywords of item we are trying to
+                           search
+    :param item_type: (string) item type we are searching for
+    :return: (json text) information on item we searched for
+    """
+    spotify_headers = {
+        'Authorization': 'Bearer ' + SPOTIFY_ACCESS_TOKEN
+    }
+
+    query_url = BASE_SPOTIFY_URL + '/search?q=' + query_keywords.replace(' ',
+                                    '%20') + '&type=' + item_type + '&limit=1'
+
+    return requests.get(url = query_url, headers = spotify_headers).text
 
 def get_new_albums():
     """
@@ -33,7 +95,8 @@ def get_new_albums():
 
     for i in range(1, 4):
         # web page we are using to find newly released albums
-        new_albums_page = requests.get(BASE_URL + "/reviews/albums/?page=" +
+        new_albums_page = requests.get(BASE_PITCHFORK_URL +
+                                       "/reviews/albums/?page=" +
                                        str(i))
 
         soup = BeautifulSoup(new_albums_page.text, 'html.parser')
@@ -72,7 +135,8 @@ def get_new_tracks():
 
     for i in range(1, 4):
         # web page we are using to find newly released tracks
-        new_music_page = requests.get(BASE_URL + "/reviews/tracks/?page=" +
+        new_music_page = requests.get(BASE_PITCHFORK_URL +
+                                      "/reviews/tracks/?page=" +
                                       str(i))
 
         # create BeautifulSoup object corresponding to new_music_page
