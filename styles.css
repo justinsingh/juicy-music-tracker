@@ -42,6 +42,7 @@ h1 {
 .album_entry {
     font-family: 'Open Sans';
     font-size: 1.1em;
+    line-height: 1.75em;
     padding-top: 2em;
     padding-left: 1.1em;
     padding-right: 1.1em;
