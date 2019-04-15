@@ -1,2 +1,2 @@
 # music-tracker
-A web scraper which discovers trending music artists on Pitchfork and assesses their current popularity on Twitter using the Twitter API.
+Music tracking website scraping Pitchfork for new music releases and ranking their popularity with Spotify API.
