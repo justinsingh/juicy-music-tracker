@@ -160,7 +160,7 @@ def get_spotify_album_image(spotify_album):
     :param spotify_album: (string) the json formatted info of an album
     :return: (string) the URL of the spotify_album's cover art image
     """
-    album_image_index = spotify_album.find('\"height\" : 300')
+    album_image_index = spotify_album.find('\"height\" : 640')
     album_image_url = spotify_album[album_image_index+29:album_image_index+93]
     return album_image_url
 
