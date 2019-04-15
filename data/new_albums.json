@@ -14,7 +14,7 @@
       "artists": [
         "Inter Arma"
       ],
-      "popularity": "31",
+      "popularity": "34",
       "album_art_url": "https://i.scdn.co/image/22f02058ba3726844a55853ec1a797ee732db30c",
       "spotify_url": "https://open.spotify.com/album/2aa2K1vqMD0vqpvPl5idlv"
     }
@@ -24,7 +24,7 @@
       "artists": [
         "Chris Forsyth"
       ],
-      "popularity": "20",
+      "popularity": "24",
       "album_art_url": "https://i.scdn.co/image/7fff454731e1c64a74453125f94fb7b17ff20187",
       "spotify_url": "https://open.spotify.com/album/4ef6REZjheWFBdH1Ke8AUA"
     }
@@ -34,7 +34,7 @@
       "artists": [
         "Bryce Dessner"
       ],
-      "popularity": "31",
+      "popularity": "32",
       "album_art_url": "https://i.scdn.co/image/8b72560175befc82646b697617c17c68ee5d0e18",
       "spotify_url": "https://open.spotify.com/album/0sQ6Yzk9Q9FiFmiIUUoIOB"
     }
@@ -44,7 +44,7 @@
       "artists": [
         "Emily Reo"
       ],
-      "popularity": "18",
+      "popularity": "22",
       "album_art_url": "https://i.scdn.co/image/98fb716ad3ef9f520a5b1a5a68cfb4ca54c65f37",
       "spotify_url": "https://open.spotify.com/album/2y9MfPOiswz8s2L6W3qNW5"
     }
@@ -54,7 +54,7 @@
       "artists": [
         "Patio"
       ],
-      "popularity": "21",
+      "popularity": "23",
       "album_art_url": "https://i.scdn.co/image/df67827099db0ffd55bc3576d0dfba99a1546fcc",
       "spotify_url": "https://open.spotify.com/album/6Ji9zIuio7Nv9iidKOuUiM"
     }
@@ -64,7 +64,7 @@
       "artists": [
         "Gramm"
       ],
-      "popularity": "22",
+      "popularity": "23",
       "album_art_url": "https://i.scdn.co/image/081c9526885b82512d11938d246c91947e66f14d",
       "spotify_url": "https://open.spotify.com/album/6mli4NYFfaKhr4J12Xxjtg"
     }
@@ -84,7 +84,7 @@
       "artists": [
         "The Chemical Brothers"
       ],
-      "popularity": "59",
+      "popularity": "62",
       "album_art_url": "https://i.scdn.co/image/101f8ec35a5a5d6344875cd8fc8f806097c16f02",
       "spotify_url": "https://open.spotify.com/album/7d1KwAPdMEBqCERVsKRUox"
     }
@@ -94,9 +94,40 @@
       "artists": [
         "Bibio"
       ],
-      "popularity": "49",
+      "popularity": "52",
       "album_art_url": "https://i.scdn.co/image/38869653ab45f1cc2fe56330055a7a14fb66b7ec",
       "spotify_url": "https://open.spotify.com/album/66uh2zByzGn6sW3mbpZTVh"
+    }
+  ],
+  "Brutalism": [
+    {
+      "artists": [
+        "The Drums"
+      ],
+      "popularity": "51",
+      "album_art_url": "https://i.scdn.co/image/77eb7c17cafe55033a8d83fcce922c76c8e0883d",
+      "spotify_url": "https://open.spotify.com/album/2IcboJUdOpCYkZ2FvSRT46"
+    }
+  ],
+  "Long Story Short": [
+    {
+      "artists": [
+        "Eto",
+        "Superior"
+      ],
+      "popularity": "25",
+      "album_art_url": "https://i.scdn.co/image/f1974adace19aa23803b938263fe3adc0888f17a",
+      "spotify_url": "https://open.spotify.com/album/28tKco5Jvz7xoIFOUV8BD3"
+    }
+  ],
+  "Even in the Tremor": [
+    {
+      "artists": [
+        "Lady Lamb"
+      ],
+      "popularity": "43",
+      "album_art_url": "https://i.scdn.co/image/c4392fd662cff935a9ebd8523b4a9be01f64af97",
+      "spotify_url": "https://open.spotify.com/album/5j9LqrQ1ngTEJ8vHzk9xSa"
     }
   ],
   "What a Boost": [
@@ -104,7 +135,7 @@
       "artists": [
         "Rozi Plain"
       ],
-      "popularity": "26",
+      "popularity": "27",
       "album_art_url": "https://i.scdn.co/image/9dbdaae9734de16dbccc1e5a19a23a60ccf505bc",
       "spotify_url": "https://open.spotify.com/album/7qqFyScogbc1DcmB33GjXc"
     }
@@ -176,7 +207,7 @@
       "artists": [
         "Charlotte Cornfield"
       ],
-      "popularity": "22",
+      "popularity": "23",
       "album_art_url": "https://i.scdn.co/image/1320e1e1b3e28572dce2f5cac847a481c994c000",
       "spotify_url": "https://open.spotify.com/album/7gAusFhuvPcIOubvdtLglm"
     }
@@ -266,7 +297,7 @@
       "artists": [
         "Garcia Peoples"
       ],
-      "popularity": "31",
+      "popularity": "30",
       "album_art_url": "https://i.scdn.co/image/1bec0371c23b743bfb813e3a8c3d674d1584c205",
       "spotify_url": "https://open.spotify.com/album/3XLeQjuYdReXHNu3a8lxpM"
     }

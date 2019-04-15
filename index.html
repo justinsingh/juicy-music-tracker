@@ -12,77 +12,99 @@
     <title>Juicy Music Tracker</title>
     <link href="styles.css" rel="stylesheet">
 </head>
-<body onload="w3.sortHTML('#album_list1','.album_entry','div:nth-child(4)');
-w3.sortHTML('#album_list1','.album_entry','div:nth-child(4)')">
+<body>
 <div class="nav_bar">
-    <a href="https://github.com/justinsingh/juicy-music-tracker" target="_blank">
+    <a href="https://github.com/justinsingh/juicy-music-tracker"
+       target="_blank">
         <div class="nav_bar_text">Juicy Music Tracker</div>
     </a>
 </div>
 <div class="header_image_section">
-    <a href="https://github.com/justinsingh/juicy-music-tracker" target="_blank">
+    <a href="https://github.com/justinsingh/juicy-music-tracker"
+       target="_blank">
         <img class="header_image" src="images/peachv2.jpg"/>
     </a>
 </div>
 <div class="main_header">
-    <h1>Fresh music releases arranged by Spotify streaming popularity.</h1>
+    <h1>Fresh music releases arranged by Spotify streaming popularity</h1>
 </div>
 <div id="album_list1" class="album_list">
     <script>
         var count = 1;
+        var dict = {};
+
         $(function () {
-
             $.getJSON('data/new_albums.json', function (data) {
-                $.each(data, function (key, value) {
-                    var albumListDiv = document.getElementById("album_list1")
+                    dict = data;
+                    popularities = []
 
-                    var albumListEntryDiv = document.createElement('div');
-                    albumListEntryDiv.id = 'entry' + count;
-                    albumListEntryDiv.className = 'album_entry';
+                    for (var key in dict) {
+                        popularities.push(dict[key][0]["popularity"]);
+                    }
 
-                    var albumArtContainer = document.createElement('a');
-                    albumArtContainer.href = value[0]["spotify_url"];
-                    albumArtContainer.className = "nav-link";
-                    albumArtContainer.target = "_blank";
+                    popularities.sort();
+                    popularities.reverse();
 
-                    var albumArtDiv = document.createElement('img');
-                    albumArtDiv.src = value[0]["album_art_url"];
-                    albumArtDiv.id = 'art' + count;
-                    albumArtDiv.className = 'album_art';
+                    popularity_count = 0;
+                    for (var pop in popularities) {
+                        for (var key in dict) {
+                            if (dict[key][0]["popularity"] ==
+                                popularities[popularity_count]) {
+                                value = dict[key];
+                                var albumListDiv = document.getElementById
+                                ("album_list1");
 
-                    albumArtContainer.appendChild(albumArtDiv);
+                                var albumListEntryDiv = document.createElement('div');
+                                albumListEntryDiv.id = 'entry' + count;
+                                albumListEntryDiv.className = 'album_entry';
 
-                    var albumNameContainer = document.createElement('a');
-                    albumNameContainer.href = value[0]["spotify_url"];
-                    albumNameContainer.className = "nav-link";
-                    albumNameContainer.target = "_blank";
+                                var albumArtContainer = document.createElement('a');
+                                albumArtContainer.href = value[0]["spotify_url"];
+                                albumArtContainer.className = "nav-link";
+                                albumArtContainer.target = "_blank";
 
-                    var albumNameDiv = document.createElement('div');
-                    albumNameDiv.id = 'name' + count;
-                    albumNameDiv.className = 'album_name';
-                    albumNameDiv.innerHTML = key;
+                                var albumArtDiv = document.createElement('img');
+                                albumArtDiv.src = value[0]["album_art_url"];
+                                albumArtDiv.id = 'art' + count;
+                                albumArtDiv.className = 'album_art';
 
-                    albumNameContainer.appendChild(albumNameDiv);
+                                albumArtContainer.appendChild(albumArtDiv);
 
-                    var albumArtistDiv = document.createElement('div');
-                    albumArtistDiv.id = 'artist' + count;
-                    albumArtistDiv.className = 'album_artist';
-                    albumArtistDiv.innerHTML = value[0]["artists"].join(' & ');
+                                var albumNameContainer = document.createElement('a');
+                                albumNameContainer.href = value[0]["spotify_url"];
+                                albumNameContainer.className = "nav-link";
+                                albumNameContainer.target = "_blank";
 
-                    var albumPopularityDiv = document.createElement('div');
-                    albumPopularityDiv.id = 'popularity' + count;
-                    albumPopularityDiv.className = 'album_popularity';
-                    albumPopularityDiv.innerHTML = 'Popularity: ' +
-                        value[0]["popularity"];
+                                var albumNameDiv = document.createElement('div');
+                                albumNameDiv.id = 'name' + count;
+                                albumNameDiv.className = 'album_name';
+                                albumNameDiv.innerHTML = key;
 
-                    albumListEntryDiv.appendChild(albumArtContainer);
-                    albumListEntryDiv.appendChild(albumNameContainer);
-                    albumListEntryDiv.appendChild(albumArtistDiv);
-                    albumListEntryDiv.appendChild(albumPopularityDiv);
-                    albumListDiv.appendChild(albumListEntryDiv);
-                    count++;
-                })
-            })
+                                albumNameContainer.appendChild(albumNameDiv);
+
+                                var albumArtistDiv = document.createElement('div');
+                                albumArtistDiv.id = 'artist' + count;
+                                albumArtistDiv.className = 'album_artist';
+                                albumArtistDiv.innerHTML = value[0]["artists"].join(' & ');
+
+                                var albumPopularityDiv = document.createElement('div');
+                                albumPopularityDiv.id = 'popularity' + count;
+                                albumPopularityDiv.className = 'album_popularity';
+                                albumPopularityDiv.innerHTML = 'Popularity: ' +
+                                    value[0]["popularity"];
+
+                                albumListEntryDiv.appendChild(albumArtContainer);
+                                albumListEntryDiv.appendChild(albumNameContainer);
+                                albumListEntryDiv.appendChild(albumArtistDiv);
+                                albumListEntryDiv.appendChild(albumPopularityDiv);
+                                albumListDiv.appendChild(albumListEntryDiv);
+                                count++;
+                                popularity_count++;
+                            }
+                        }
+                    }
+                }
+            )
         });
     </script>
 </div>
