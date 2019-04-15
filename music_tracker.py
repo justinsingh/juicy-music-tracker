@@ -261,7 +261,9 @@ def add_popularity(new_music_dict):
                            yet implemented!)
     """
     for album in list(new_music_dict):
-            album_id = get_spotify_item_id(search_spotify_item(album, "album"))
+            album_id = get_spotify_item_id(search_spotify_item(album + " " +
+                                            new_music_dict[album][
+                                                0]["artists"][0], "album"))
             if '{' not in album_id:
                 album_json = get_spotify_album(album_id)
                 album_popularity = get_spotify_album_popularity(album_json)
@@ -279,7 +281,9 @@ def add_album_image(new_music_dict):
                            yet implemented!)
     """
     for album in list(new_music_dict):
-        album_id = get_spotify_item_id(search_spotify_item(album, "album"))
+        album_id = get_spotify_item_id(search_spotify_item(album + " " +
+                                            new_music_dict[album][
+                                                0]["artists"][0], "album"))
         album_json = get_spotify_album(album_id)
         album_image_url = get_spotify_album_image(album_json)
         if '{' not in album_image_url:
