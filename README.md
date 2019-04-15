@@ -8,6 +8,10 @@ Running this project locally requires a credentials.json file (part of the .giti
 
 [Check out the running project here!](https://justinsingh.github.io/juicy-music-tracker/)
 
+### TO-DO
+* Implement functionality with the Twitter API to measure the tweet volume of artists and albums
+* Allow users to choose to see tracks and their popularity scores
+
 ### Gallery
 <p align="center">
   <img src="https://github.com/justinsingh/juicy-music-tracker/blob/master/images/sample1.png?raw=true"/>
