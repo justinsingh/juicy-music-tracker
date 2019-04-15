@@ -49,9 +49,13 @@ h1 {
     display: inline-block;
 }
 
-.album_artist {
+.album_name {
     font-style: italic;
 }
+
+.album_artist {
+}
+
 .main_header {
     margin-top: -50px;
     text-align: center;
