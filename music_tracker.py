@@ -164,6 +164,17 @@ def get_spotify_album_image(spotify_album):
     album_image_url = spotify_album[album_image_index+29:album_image_index+93]
     return album_image_url
 
+def get_spotify_url(spotify_album):
+    """
+    Extracts the URL of the album's page on Spotify.
+
+    :param spotify_album: (string) the json formatted info of an album
+    :return: (string) the URL of the given album's Spotify page
+    """
+    album_url_index = spotify_album.find('https://open.spotify.com/album/')
+    album_url = spotify_album[album_url_index:album_url_index+53]
+    return album_url
+
 def get_new_albums():
     """
     Scrapes Pitchfork for newly released albums and returns a dictionary
@@ -292,6 +303,25 @@ def add_album_image(new_music_dict):
         else:
             del new_music_dict[album]
 
+def add_spotify_url(new_music_dict):
+    """
+    Search through the keys of a music dictionary and add a Spotify API
+    'spotify_url' key for each entry of music.
+
+    :param new_music_dict: (dict) dictionary of music albums (tracks not
+                           yet implemented!)
+    """
+    for album in list(new_music_dict):
+        album_id = get_spotify_item_id(search_spotify_item(album + " " +
+                                            new_music_dict[album][
+                                                0]["artists"][0], "album"))
+        album_json = get_spotify_album(album_id)
+        spotify_url = get_spotify_url(album_json)
+        if '{' not in spotify_url:
+            new_albums_value = new_music_dict[album][0]
+            new_albums_value['spotify_url'] = spotify_url
+        else:
+            del new_music_dict[album]
 
 def get_tweet_volume(artist):
     """
@@ -316,6 +346,9 @@ def main():
 
     # add album_art_url field to new_albums
     add_album_image(new_albums)
+
+    # add spotify_url field to new_albums
+    add_spotify_url(new_albums)
 
     # write new_tracks into a json file
     write_json(new_tracks, 'new_tracks')
