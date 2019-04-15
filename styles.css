@@ -8,12 +8,35 @@ h1 {
     max-width: 15em;
     line-height: 1.1;
     color: #333;
-    font-size: 3.3em;
+    font-size: 3.5em;
     font-weight: 200;
     font-family: 'Amiri';
     font-style: italic;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
+}
+
+.nav_bar {
+    max-height: 1.5em;
+}
+
+.nav_bar_text {
+    text-align: center;
+    font-family: 'Amiri', serif;
+    font-weight: 100;
+    font-size: 1.7em;
+}
+
+.header_image_section {
+    padding-top: 25px;
+    text-align: center;
+}
+.header_image {
+    width: 90px;
+    height: auto;
+}
+.album_list {
+    background-color: #f7f7f7;
 }
 
 .album_entry {
@@ -29,6 +52,7 @@ h1 {
     font-style: italic;
 }
 .main_header {
+    margin-top: -50px;
     text-align: center;
 }
 
