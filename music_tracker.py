@@ -186,7 +186,7 @@ def get_new_albums():
     """
     new_albums = {}
 
-    for i in range(1, 4):
+    for i in range(1, 6):
         # web page we are using to find newly released albums
         new_albums_page = requests.get(BASE_PITCHFORK_URL +
                                        "/reviews/albums/?page=" +
@@ -226,7 +226,7 @@ def get_new_tracks():
     # music dictionary that maps artist names to new music titles
     new_tracks = {}
 
-    for i in range(1, 4):
+    for i in range(1, 6):
         # web page we are using to find newly released tracks
         new_music_page = requests.get(BASE_PITCHFORK_URL +
                                       "/reviews/tracks/?page=" +
