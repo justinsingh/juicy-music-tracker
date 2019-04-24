@@ -263,6 +263,21 @@ def write_json(data, file_name):
     with open('data/' + file_name + '.json', 'w') as music_data_file:
         json.dump(data, music_data_file, indent = 2)
 
+def add_spotify_id(new_music_dict):
+    """
+    Search through the keys of a music dictionary and add a Spotify API
+    'spotify_id' key for each entry of music.
+
+    :param new_music_dict: (dict) dictionary of music albums (tracks not
+                           yet implemented!)
+    """
+    for album in list(new_music_dict):
+        album_id = get_spotify_item_id(search_spotify_item(album + " " +
+                                            new_music_dict[album][
+                                                0]["artists"][0], "album"))
+
+        new_music_dict[album][0]['spotify_id'] = album_id
+
 def add_popularity(new_music_dict):
     """
     Search through the keys of a music dictionary and add a Spotify API
@@ -272,9 +287,9 @@ def add_popularity(new_music_dict):
                            yet implemented!)
     """
     for album in list(new_music_dict):
-            album_id = get_spotify_item_id(search_spotify_item(album + " " +
-                                            new_music_dict[album][
-                                                0]["artists"][0], "album"))
+            # assumes add_popularity has been called with current dict
+            album_id = new_music_dict[album][0]['spotify_id']
+
             if '{' not in album_id:
                 album_json = get_spotify_album(album_id)
                 album_popularity = get_spotify_album_popularity(album_json)
@@ -292,9 +307,9 @@ def add_album_image(new_music_dict):
                            yet implemented!)
     """
     for album in list(new_music_dict):
-        album_id = get_spotify_item_id(search_spotify_item(album + " " +
-                                            new_music_dict[album][
-                                                0]["artists"][0], "album"))
+        # assumes add_popularity has been called with current dict
+        album_id = new_music_dict[album][0]['spotify_id']
+
         album_json = get_spotify_album(album_id)
         album_image_url = get_spotify_album_image(album_json)
         if '{' not in album_image_url:
@@ -312,9 +327,9 @@ def add_spotify_url(new_music_dict):
                            yet implemented!)
     """
     for album in list(new_music_dict):
-        album_id = get_spotify_item_id(search_spotify_item(album + " " +
-                                            new_music_dict[album][
-                                                0]["artists"][0], "album"))
+        # assumes add_popularity has been called with current dict
+        album_id = new_music_dict[album][0]['spotify_id']
+
         album_json = get_spotify_album(album_id)
         spotify_url = get_spotify_url(album_json)
         if '{' not in spotify_url:
@@ -336,10 +351,13 @@ def get_tweet_volume(artist):
 
 def main():
     # create dictionary of newly released tracks
-    new_tracks = get_new_tracks()
+    #new_tracks = get_new_tracks()
 
     # create dictionary of newly released albums
     new_albums = get_new_albums()
+
+    # add spotify_id field to new_albums
+    add_spotify_id(new_albums)
 
     # add popularity field to new_albums
     add_popularity(new_albums)
@@ -351,7 +369,7 @@ def main():
     add_spotify_url(new_albums)
 
     # write new_tracks into a json file
-    write_json(new_tracks, 'new_tracks')
+    #write_json(new_tracks, 'new_tracks')
 
     #write new_albums into a json file
     write_json(new_albums, 'new_albums')

@@ -1,4 +1,32 @@
 {
+  "Sorry - Original Demo": [
+    {
+      "artists": [
+        "Beyonc\u00e9"
+      ]
+    }
+  ],
+  "Spontaneous [ft. Little Dragon] / Takashi": [
+    {
+      "artists": [
+        "Flying Lotus"
+      ]
+    }
+  ],
+  "Earth": [
+    {
+      "artists": [
+        "Lil Dicky"
+      ]
+    }
+  ],
+  "WAYDT": [
+    {
+      "artists": [
+        "UnoTheActivist"
+      ]
+    }
+  ],
   "It\u2019ll All Be Over (DJ Koze Remix)": [
     {
       "artists": [
@@ -15,10 +43,11 @@
       ]
     }
   ],
-  "Medell\u00edn [ft. Maluma]": [
+  "Medell\u00edn": [
     {
       "artists": [
-        "Madonna"
+        "Madonna",
+        "Maluma"
       ]
     }
   ],
@@ -225,34 +254,6 @@
       "artists": [
         "Rosal\u00eda",
         "J Balvin"
-      ]
-    }
-  ],
-  "About Work the Dancefloor": [
-    {
-      "artists": [
-        "Georgia"
-      ]
-    }
-  ],
-  "Dreaming Of": [
-    {
-      "artists": [
-        "Phoebe Green"
-      ]
-    }
-  ],
-  "Marathon [ft. Rebecca & Fiona]": [
-    {
-      "artists": [
-        "Korn\u00e9l Kov\u00e1cs"
-      ]
-    }
-  ],
-  "Nothing Sacred/All Things Wild": [
-    {
-      "artists": [
-        "Kevin Morby"
       ]
     }
   ]

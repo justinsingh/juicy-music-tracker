@@ -1,11 +1,101 @@
 {
+  "Family Not a Group": [
+    {
+      "artists": [
+        "Hit-Boy",
+        "SOB X RBE"
+      ],
+      "spotify_id": "2K394XWdAJvrc4670aneEa",
+      "popularity": "53",
+      "album_art_url": "https://i.scdn.co/image/c415c2afe06ffff190ace735420027b2adbfb512",
+      "spotify_url": "https://open.spotify.com/album/2K394XWdAJvrc4670aneEa"
+    }
+  ],
+  "I Love You. It\u2019s a Fever Dream.": [
+    {
+      "artists": [
+        "The Tallest Man on Earth"
+      ],
+      "spotify_id": "21iUYmZgiaPv5xvfTYKqRs",
+      "popularity": "51",
+      "album_art_url": "https://i.scdn.co/image/9fc7967445e0c051ccbe3b36e6002919e1ec59ab",
+      "spotify_url": "https://open.spotify.com/album/21iUYmZgiaPv5xvfTYKqRs"
+    }
+  ],
+  "Absolute Zero": [
+    {
+      "artists": [
+        "Bruce Hornsby"
+      ],
+      "spotify_id": "5Zks2SZNQAw4NYlUhVEE85",
+      "popularity": "42",
+      "album_art_url": "https://i.scdn.co/image/09a34b4e7856bc9c3c9510982c3e0397bf70c471",
+      "spotify_url": "https://open.spotify.com/album/5Zks2SZNQAw4NYlUhVEE85"
+    }
+  ],
+  "Cuz I Love You": [
+    {
+      "artists": [
+        "Lizzo"
+      ],
+      "spotify_id": "6dFFcYQ8VhifgdKgYY5LYL",
+      "popularity": "69",
+      "album_art_url": "https://i.scdn.co/image/98fec07b264105320c7fb6cd7a0536c6f35c894a",
+      "spotify_url": "https://open.spotify.com/album/6dFFcYQ8VhifgdKgYY5LYL"
+    }
+  ],
+  "Covert Contracts": [
+    {
+      "artists": [
+        "Control Top "
+      ],
+      "spotify_id": "1vcdjzIFsREnxektt7YpiE",
+      "popularity": "29",
+      "album_art_url": "https://i.scdn.co/image/e28b0e93c27b7207ae3c88243af563ca1fe45d31",
+      "spotify_url": "https://open.spotify.com/album/1vcdjzIFsREnxektt7YpiE"
+    }
+  ],
+  "Akron, Ohio": [
+    {
+      "artists": [
+        "Sad Planets"
+      ],
+      "spotify_id": "71U67FuqEGpjbqf5tMkLQF",
+      "popularity": "24",
+      "album_art_url": "https://i.scdn.co/image/88b0dd98a3d585b7dd195f92662e2d66d5627cc2",
+      "spotify_url": "https://open.spotify.com/album/71U67FuqEGpjbqf5tMkLQF"
+    }
+  ],
+  "Raw Honey": [
+    {
+      "artists": [
+        "Drugdealer"
+      ],
+      "spotify_id": "42bKdrgC3t3F67r9K6kQ9r",
+      "popularity": "39",
+      "album_art_url": "https://i.scdn.co/image/de9d9b1d361d8976f562dfb60c385e66df5d3ba3",
+      "spotify_url": "https://open.spotify.com/album/42bKdrgC3t3F67r9K6kQ9r"
+    }
+  ],
+  "Intellexual": [
+    {
+      "artists": [
+        "Intellexual"
+      ],
+      "spotify_id": "6192Z1dWwYxMXci6WVaiBL",
+      "popularity": "40",
+      "album_art_url": "https://i.scdn.co/image/fc596d14a2b7aaaad000f7e5cb235d93ba1a244c",
+      "spotify_url": "https://open.spotify.com/album/6192Z1dWwYxMXci6WVaiBL"
+    }
+  ],
   "Orange": [
     {
       "artists": [
         "Caroline Shaw",
         "Attacca Quartet"
       ],
-      "popularity": "0",
+      "spotify_id": "5d0tz2baP5WGhMzZvONcgU",
+      "popularity": "29",
       "album_art_url": "https://i.scdn.co/image/ef19912106adff499a64d9470e077c246109e918",
       "spotify_url": "https://open.spotify.com/album/5d0tz2baP5WGhMzZvONcgU"
     }
@@ -15,7 +105,8 @@
       "artists": [
         "ShunGu"
       ],
-      "popularity": "0",
+      "spotify_id": "2c9RPnmAuOl7AQPXUBrgFH",
+      "popularity": "17",
       "album_art_url": "https://i.scdn.co/image/93a4e0337b619a3c4ca16635b71138cd2a92b112",
       "spotify_url": "https://open.spotify.com/album/2c9RPnmAuOl7AQPXUBrgFH"
     }
@@ -25,7 +116,8 @@
       "artists": [
         "Beyonc\u00e9"
       ],
-      "popularity": "78",
+      "spotify_id": "35S1JCj5paIfElT2GODl6x",
+      "popularity": "83",
       "album_art_url": "https://i.scdn.co/image/9e01fbd7b68b45f7c88d147d775aac958c22c1b3",
       "spotify_url": "https://open.spotify.com/album/35S1JCj5paIfElT2GODl6x"
     }
@@ -35,6 +127,7 @@
       "artists": [
         "Romeo Santos"
       ],
+      "spotify_id": "1yM8iaMk4Slsqr94LabgN1",
       "popularity": "77",
       "album_art_url": "https://i.scdn.co/image/74e2b88ba9cb163e1cbfc7b32784c1cdb39a110d",
       "spotify_url": "https://open.spotify.com/album/1yM8iaMk4Slsqr94LabgN1"
@@ -45,9 +138,10 @@
       "artists": [
         "Lolo Zoua\u00ef"
       ],
-      "popularity": "44",
-      "album_art_url": "https://i.scdn.co/image/c0ca7c303dd63e6d55bfe649fa7768bacbeea187",
-      "spotify_url": "https://open.spotify.com/album/2qD4GLYPeU13Vma1wXQ1E2"
+      "spotify_id": "1zYV9ByVJ4JURQ1f2q9Rnf",
+      "popularity": "48",
+      "album_art_url": "https://i.scdn.co/image/ea7ae79b5c900b0fca968d08915c76e892a53786",
+      "spotify_url": "https://open.spotify.com/album/1zYV9ByVJ4JURQ1f2q9Rnf"
     }
   ],
   "No Dados": [
@@ -55,7 +149,8 @@
       "artists": [
         "Reese McHenry"
       ],
-      "popularity": "11",
+      "spotify_id": "1qLVNC5CBkaknAsbBbv1wk",
+      "popularity": "17",
       "album_art_url": "https://i.scdn.co/image/410ee50b0476f4d3e421a983f8cf06503c7dce58",
       "spotify_url": "https://open.spotify.com/album/1qLVNC5CBkaknAsbBbv1wk"
     }
@@ -65,9 +160,21 @@
       "artists": [
         "Gus Dapperton"
       ],
-      "popularity": "20",
+      "spotify_id": "4qSYIc2q02zeCN2fB2hBBR",
+      "popularity": "54",
       "album_art_url": "https://i.scdn.co/image/341c63cee88187c8da2a00fc7dcb559110c229c6",
       "spotify_url": "https://open.spotify.com/album/4qSYIc2q02zeCN2fB2hBBR"
+    }
+  ],
+  "Laughing Matter": [
+    {
+      "artists": [
+        "Wand"
+      ],
+      "spotify_id": "7bW72XJFGvtFYpq8To57rs",
+      "popularity": "42",
+      "album_art_url": "https://i.scdn.co/image/99b090b7413a99130039bc8f7fba071008290650",
+      "spotify_url": "https://open.spotify.com/album/7bW72XJFGvtFYpq8To57rs"
     }
   ],
   "Invitation": [
@@ -75,7 +182,8 @@
       "artists": [
         "Heather Woods Broderick"
       ],
-      "popularity": "1",
+      "spotify_id": "3kkB2uwZh7WS7kbvOobvCo",
+      "popularity": "28",
       "album_art_url": "https://i.scdn.co/image/1d61bb2152946743694a5ecec944b76107c9776c",
       "spotify_url": "https://open.spotify.com/album/3kkB2uwZh7WS7kbvOobvCo"
     }
@@ -87,7 +195,8 @@
         "Sia",
         "Diplo"
       ],
-      "popularity": "76",
+      "spotify_id": "0ujHQ5WCLuKJQXOqXpGtpf",
+      "popularity": "77",
       "album_art_url": "https://i.scdn.co/image/9888bdbd23cd4e343c9a7f95381a83ab84e3b6ef",
       "spotify_url": "https://open.spotify.com/album/0ujHQ5WCLuKJQXOqXpGtpf"
     }
@@ -97,7 +206,8 @@
       "artists": [
         "Fontaines D.C."
       ],
-      "popularity": "40",
+      "spotify_id": "7wMhg0YqDuqylEVnLQQ02R",
+      "popularity": "41",
       "album_art_url": "https://i.scdn.co/image/a92c0ff4ece1615256792dd6b8ba93fb3bc204a7",
       "spotify_url": "https://open.spotify.com/album/7wMhg0YqDuqylEVnLQQ02R"
     }
@@ -107,6 +217,7 @@
       "artists": [
         "Kitty"
       ],
+      "spotify_id": "3jLrBV8THk01u5onUGx2hr",
       "popularity": "40",
       "album_art_url": "https://i.scdn.co/image/1fba47a4c6d023b14c0d9e492c4098ec8fb08ae1",
       "spotify_url": "https://open.spotify.com/album/3jLrBV8THk01u5onUGx2hr"
@@ -117,6 +228,7 @@
       "artists": [
         "Krist\u00edn Anna"
       ],
+      "spotify_id": "7iku5X7Tc8UKcszi6cC2u2",
       "popularity": "27",
       "album_art_url": "https://i.scdn.co/image/651485bbe3fa3108da845388a6ad9e674b69b795",
       "spotify_url": "https://open.spotify.com/album/7iku5X7Tc8UKcszi6cC2u2"
@@ -127,6 +239,7 @@
       "artists": [
         "Girl Unit"
       ],
+      "spotify_id": "2gWnRYf44eENMEDuKig1qp",
       "popularity": "38",
       "album_art_url": "https://i.scdn.co/image/6db4bf43dcc5476014b39e1672fb990321ddc6ae",
       "spotify_url": "https://open.spotify.com/album/2gWnRYf44eENMEDuKig1qp"
@@ -137,6 +250,7 @@
       "artists": [
         "Logos"
       ],
+      "spotify_id": "4Scr4FSA4B9Vz2PS3LR7rO",
       "popularity": "26",
       "album_art_url": "https://i.scdn.co/image/17796c374d55d501862e4548d282f717bfc9dd0d",
       "spotify_url": "https://open.spotify.com/album/4Scr4FSA4B9Vz2PS3LR7rO"
@@ -147,7 +261,8 @@
       "artists": [
         "BTS"
       ],
-      "popularity": "90",
+      "spotify_id": "1AvXa8xFEXtR3hb4bgihIK",
+      "popularity": "91",
       "album_art_url": "https://i.scdn.co/image/7a5055664f8306a2c87b918b14ba4c5c62301605",
       "spotify_url": "https://open.spotify.com/album/1AvXa8xFEXtR3hb4bgihIK"
     }
@@ -157,6 +272,7 @@
       "artists": [
         "Inter Arma"
       ],
+      "spotify_id": "2aa2K1vqMD0vqpvPl5idlv",
       "popularity": "39",
       "album_art_url": "https://i.scdn.co/image/22f02058ba3726844a55853ec1a797ee732db30c",
       "spotify_url": "https://open.spotify.com/album/2aa2K1vqMD0vqpvPl5idlv"
@@ -167,7 +283,8 @@
       "artists": [
         "Chris Forsyth"
       ],
-      "popularity": "30",
+      "spotify_id": "4ef6REZjheWFBdH1Ke8AUA",
+      "popularity": "31",
       "album_art_url": "https://i.scdn.co/image/7fff454731e1c64a74453125f94fb7b17ff20187",
       "spotify_url": "https://open.spotify.com/album/4ef6REZjheWFBdH1Ke8AUA"
     }
@@ -177,6 +294,7 @@
       "artists": [
         "Bryce Dessner"
       ],
+      "spotify_id": "0sQ6Yzk9Q9FiFmiIUUoIOB",
       "popularity": "32",
       "album_art_url": "https://i.scdn.co/image/8b72560175befc82646b697617c17c68ee5d0e18",
       "spotify_url": "https://open.spotify.com/album/0sQ6Yzk9Q9FiFmiIUUoIOB"
@@ -187,6 +305,7 @@
       "artists": [
         "Emily Reo"
       ],
+      "spotify_id": "2y9MfPOiswz8s2L6W3qNW5",
       "popularity": "29",
       "album_art_url": "https://i.scdn.co/image/98fb716ad3ef9f520a5b1a5a68cfb4ca54c65f37",
       "spotify_url": "https://open.spotify.com/album/2y9MfPOiswz8s2L6W3qNW5"
@@ -197,6 +316,7 @@
       "artists": [
         "Patio"
       ],
+      "spotify_id": "6Ji9zIuio7Nv9iidKOuUiM",
       "popularity": "27",
       "album_art_url": "https://i.scdn.co/image/df67827099db0ffd55bc3576d0dfba99a1546fcc",
       "spotify_url": "https://open.spotify.com/album/6Ji9zIuio7Nv9iidKOuUiM"
@@ -207,6 +327,7 @@
       "artists": [
         "Gramm"
       ],
+      "spotify_id": "6mli4NYFfaKhr4J12Xxjtg",
       "popularity": "26",
       "album_art_url": "https://i.scdn.co/image/081c9526885b82512d11938d246c91947e66f14d",
       "spotify_url": "https://open.spotify.com/album/6mli4NYFfaKhr4J12Xxjtg"
@@ -217,7 +338,8 @@
       "artists": [
         "Anderson .Paak"
       ],
-      "popularity": "76",
+      "spotify_id": "0YF8PfcGbsKg5IaFyPnlyY",
+      "popularity": "77",
       "album_art_url": "https://i.scdn.co/image/bd29e31de1a00012c20836f3a30bac49abefaebe",
       "spotify_url": "https://open.spotify.com/album/0YF8PfcGbsKg5IaFyPnlyY"
     }
@@ -227,6 +349,7 @@
       "artists": [
         "The Chemical Brothers"
       ],
+      "spotify_id": "7d1KwAPdMEBqCERVsKRUox",
       "popularity": "66",
       "album_art_url": "https://i.scdn.co/image/101f8ec35a5a5d6344875cd8fc8f806097c16f02",
       "spotify_url": "https://open.spotify.com/album/7d1KwAPdMEBqCERVsKRUox"
@@ -237,6 +360,7 @@
       "artists": [
         "Bibio"
       ],
+      "spotify_id": "66uh2zByzGn6sW3mbpZTVh",
       "popularity": "58",
       "album_art_url": "https://i.scdn.co/image/38869653ab45f1cc2fe56330055a7a14fb66b7ec",
       "spotify_url": "https://open.spotify.com/album/66uh2zByzGn6sW3mbpZTVh"
@@ -247,6 +371,7 @@
       "artists": [
         "The Drums"
       ],
+      "spotify_id": "2IcboJUdOpCYkZ2FvSRT46",
       "popularity": "51",
       "album_art_url": "https://i.scdn.co/image/77eb7c17cafe55033a8d83fcce922c76c8e0883d",
       "spotify_url": "https://open.spotify.com/album/2IcboJUdOpCYkZ2FvSRT46"
@@ -258,6 +383,7 @@
         "Eto",
         "Superior"
       ],
+      "spotify_id": "28tKco5Jvz7xoIFOUV8BD3",
       "popularity": "29",
       "album_art_url": "https://i.scdn.co/image/f1974adace19aa23803b938263fe3adc0888f17a",
       "spotify_url": "https://open.spotify.com/album/28tKco5Jvz7xoIFOUV8BD3"
@@ -268,6 +394,7 @@
       "artists": [
         "Lady Lamb"
       ],
+      "spotify_id": "5j9LqrQ1ngTEJ8vHzk9xSa",
       "popularity": "43",
       "album_art_url": "https://i.scdn.co/image/c4392fd662cff935a9ebd8523b4a9be01f64af97",
       "spotify_url": "https://open.spotify.com/album/5j9LqrQ1ngTEJ8vHzk9xSa"
@@ -278,6 +405,7 @@
       "artists": [
         "Rozi Plain"
       ],
+      "spotify_id": "7qqFyScogbc1DcmB33GjXc",
       "popularity": "27",
       "album_art_url": "https://i.scdn.co/image/9dbdaae9734de16dbccc1e5a19a23a60ccf505bc",
       "spotify_url": "https://open.spotify.com/album/7qqFyScogbc1DcmB33GjXc"
@@ -289,6 +417,7 @@
         "Jan Jelinek",
         "Asuna"
       ],
+      "spotify_id": "10FIu2uRFbl2UVZSKgaK54",
       "popularity": "26",
       "album_art_url": "https://i.scdn.co/image/95ad267f312a05208ee20194f77b01c6554a2537",
       "spotify_url": "https://open.spotify.com/album/10FIu2uRFbl2UVZSKgaK54"
@@ -299,6 +428,7 @@
       "artists": [
         "Khalid"
       ],
+      "spotify_id": "6KT8x5oqZJl9CcnM66hddo",
       "popularity": "91",
       "album_art_url": "https://i.scdn.co/image/6c1f62bfe24b3cf4a0f1c61448eada0ae0d16dff",
       "spotify_url": "https://open.spotify.com/album/6KT8x5oqZJl9CcnM66hddo"
@@ -310,6 +440,7 @@
         "Birdman",
         "Juvenile"
       ],
+      "spotify_id": "7Edzq93fVoyTCmKu3xSQxk",
       "popularity": "55",
       "album_art_url": "https://i.scdn.co/image/aae1a8ef1fab655048fed9468e4c18a1baebc54b",
       "spotify_url": "https://open.spotify.com/album/7Edzq93fVoyTCmKu3xSQxk"
@@ -320,6 +451,7 @@
       "artists": [
         "Crudo Pimento"
       ],
+      "spotify_id": "64AjElMtyPl5uyyshgQ4Wn",
       "popularity": "29",
       "album_art_url": "https://i.scdn.co/image/326557b09c0254aafe511735241f050048fcc95c",
       "spotify_url": "https://open.spotify.com/album/64AjElMtyPl5uyyshgQ4Wn"
@@ -330,9 +462,10 @@
       "artists": [
         "Frankie Cosmos"
       ],
+      "spotify_id": "0SsDD5XPqc2TY6kUVl8uOz",
       "popularity": "38",
-      "album_art_url": "https://i.scdn.co/image/b7da08e7c234ba71a3a0f06f223ef5852dbba2b0",
-      "spotify_url": "https://open.spotify.com/album/4SoTJBCKips0DryPkfakPb"
+      "album_art_url": "https://i.scdn.co/image/f0006e8f13f29babb46dad335a85e84bfb73ac0d",
+      "spotify_url": "https://open.spotify.com/album/0SsDD5XPqc2TY6kUVl8uOz"
     }
   ],
   "Ambitions": [
@@ -340,6 +473,7 @@
       "artists": [
         "Prins Thomas"
       ],
+      "spotify_id": "0bOx2WvTiDA5jAI83IZeUW",
       "popularity": "27",
       "album_art_url": "https://i.scdn.co/image/4467c1e843bfe3bfb1d914fb9fc1c45bfd937a76",
       "spotify_url": "https://open.spotify.com/album/0bOx2WvTiDA5jAI83IZeUW"
@@ -350,6 +484,7 @@
       "artists": [
         "Charlotte Cornfield"
       ],
+      "spotify_id": "7gAusFhuvPcIOubvdtLglm",
       "popularity": "23",
       "album_art_url": "https://i.scdn.co/image/1320e1e1b3e28572dce2f5cac847a481c994c000",
       "spotify_url": "https://open.spotify.com/album/7gAusFhuvPcIOubvdtLglm"
@@ -360,7 +495,8 @@
       "artists": [
         "Priests"
       ],
-      "popularity": "44",
+      "spotify_id": "5ifNSvbeGA7jKuok8kirvL",
+      "popularity": "43",
       "album_art_url": "https://i.scdn.co/image/c90fcc4375d77e03352fb79e574eac2cd3f510d4",
       "spotify_url": "https://open.spotify.com/album/5ifNSvbeGA7jKuok8kirvL"
     }
@@ -370,6 +506,7 @@
       "artists": [
         "woods + segal"
       ],
+      "spotify_id": "0HmKhR7Umt3ACs52ZLnKyK",
       "popularity": "47",
       "album_art_url": "https://i.scdn.co/image/a3ca3d0411702d8543edf97b3ad39e1086fa5511",
       "spotify_url": "https://open.spotify.com/album/0HmKhR7Umt3ACs52ZLnKyK"
@@ -380,6 +517,7 @@
       "artists": [
         "Show Me the Body"
       ],
+      "spotify_id": "4osZNJ2yO18sYtqJIFvMFy",
       "popularity": "47",
       "album_art_url": "https://i.scdn.co/image/492325c1fb29d14090ca46fed9efad19be418a0d",
       "spotify_url": "https://open.spotify.com/album/4osZNJ2yO18sYtqJIFvMFy"
@@ -390,99 +528,10 @@
       "artists": [
         "Tayla Parx"
       ],
+      "spotify_id": "6JHzz5eTPAcY7QkZRWVBFv",
       "popularity": "53",
       "album_art_url": "https://i.scdn.co/image/bac8a3a82e97e8d2210995aa240c34510055b76b",
       "spotify_url": "https://open.spotify.com/album/6JHzz5eTPAcY7QkZRWVBFv"
-    }
-  ],
-  "The Slider": [
-    {
-      "artists": [
-        "T. Rex"
-      ],
-      "popularity": "42",
-      "album_art_url": "https://i.scdn.co/image/e71fc5def27edf9bfb9e8c1d969a111655443c29",
-      "spotify_url": "https://open.spotify.com/album/5lL8N073N1d9ENpzM9Wtj5"
-    }
-  ],
-  "Autoclave": [
-    {
-      "artists": [
-        "Autoclave"
-      ],
-      "popularity": "31",
-      "album_art_url": "https://i.scdn.co/image/df46ab76ecdf3e3f7c6e34380de9e048329331c9",
-      "spotify_url": "https://open.spotify.com/album/3VbvHH1B9rU3Lyfv3uOolg"
-    }
-  ],
-  "Deserted": [
-    {
-      "artists": [
-        "Mekons"
-      ],
-      "popularity": "24",
-      "album_art_url": "https://i.scdn.co/image/f2eb50a315446dde0436eff58881dd444fa4967b",
-      "spotify_url": "https://open.spotify.com/album/0Lp3bRycjSLsmqb5oyKIfj"
-    }
-  ],
-  "Thalassa": [
-    {
-      "artists": [
-        "Ioanna Gika"
-      ],
-      "popularity": "34",
-      "album_art_url": "https://i.scdn.co/image/358d5d6e7334fb2c5d4c3505a93d85b19f995d02",
-      "spotify_url": "https://open.spotify.com/album/1UZB92cUGvT5Pq1bRWDiM7"
-    }
-  ],
-  "Natural Facts": [
-    {
-      "artists": [
-        "Garcia Peoples"
-      ],
-      "popularity": "30",
-      "album_art_url": "https://i.scdn.co/image/1bec0371c23b743bfb813e3a8c3d674d1584c205",
-      "spotify_url": "https://open.spotify.com/album/3XLeQjuYdReXHNu3a8lxpM"
-    }
-  ],
-  "Titanic Rising": [
-    {
-      "artists": [
-        "Weyes Blood"
-      ],
-      "popularity": "62",
-      "album_art_url": "https://i.scdn.co/image/d3a7da75296117c76fffdce6a455d3ce1a6dde19",
-      "spotify_url": "https://open.spotify.com/album/53VKICyqCf91sVkTdFrzKX"
-    }
-  ],
-  "Morbid Stuff": [
-    {
-      "artists": [
-        "PUP"
-      ],
-      "popularity": "63",
-      "album_art_url": "https://i.scdn.co/image/1e3ebfdcddde0c52cb23de1635bba2a251f25407",
-      "spotify_url": "https://open.spotify.com/album/504XSXhUJlzztcMV4YMaDV"
-    }
-  ],
-  "Crackheads Live Longer Than Vegans": [
-    {
-      "artists": [
-        "Chris Crack"
-      ],
-      "popularity": "28",
-      "album_art_url": "https://i.scdn.co/image/fc15e7aa79116e38698c3fb043cac99f213aed11",
-      "spotify_url": "https://open.spotify.com/album/1wdTTXlje5KvZmFT2Dj4cT"
-    }
-  ],
-  "In the Shape of a Storm": [
-    {
-      "artists": [
-        "Damien Jurado"
-      ],
-      "popularity": "41",
-      "album_art_url": "https://i.scdn.co/image/3323150bdac4bf5f4f49e675fac2a3a7027233c1",
-      "spotify_url": "https://open.spotify.com/album/6knwzkzYzZBffvbhK9iWeu"
     }
   ]
 }
