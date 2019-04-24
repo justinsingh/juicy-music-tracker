@@ -70,3 +70,31 @@ h1 {
     width: 500px;
     height: auto;
 }
+
+@media screen and (max-width: 768px) {
+     /* CSS for screens that are 768 pixels or less will be put in this section */
+    h1 {
+        font-size: 2.0em;
+    }
+
+    .nav_bar_text {
+        font-size: 1.1em;
+    }
+
+    .header_image_section {
+        padding-top: 10px;
+    }
+
+    .header_image {
+        width: 75px;
+        padding-bottom: 15px;
+    }
+
+    .album_art {
+        width: 325px;
+    }
+
+    .album_entry {
+        font-size: 0.75em;
+    }
+}
