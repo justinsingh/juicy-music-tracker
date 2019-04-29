@@ -1,10 +1,9 @@
 # ----------------------------------------------------------------------
 
-# Program:     Trending Music Tracker
-# Purpose:     Use a web scraper on the Pitchfork website to get
-#              the names of music artists releasing new music.
-#              Assess their popularity on Spotify and Twitter using the
-#              Spotify and Twitter API.
+# Program:     Juicy Music Tracker
+# Purpose:     Scrape the Pitchfork website with BeautifulSoup to get
+#              new music. Create insights on their popularity using the
+#              Spotify API and Twitter API.
 #
 # Author:       Justin Singh
 #
