@@ -350,7 +350,7 @@ def get_tweet_volume(artist):
 
 def main():
     # create dictionary of newly released tracks
-    #new_tracks = get_new_tracks()
+    new_tracks = get_new_tracks()
 
     # create dictionary of newly released albums
     new_albums = get_new_albums()
@@ -368,7 +368,7 @@ def main():
     add_spotify_url(new_albums)
 
     # write new_tracks into a json file
-    #write_json(new_tracks, 'new_tracks')
+    write_json(new_tracks, 'new_tracks')
 
     #write new_albums into a json file
     write_json(new_albums, 'new_albums')

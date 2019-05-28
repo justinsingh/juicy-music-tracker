@@ -1,4 +1,173 @@
 {
+  "Bags": [
+    {
+      "artists": [
+        "Clairo"
+      ]
+    }
+  ],
+  "Cross Me [ft. Chance the Rapper and PnB Rock]": [
+    {
+      "artists": [
+        "Ed Sheeran"
+      ]
+    }
+  ],
+  "The Ballad of the Hulk": [
+    {
+      "artists": [
+        "Bill Callahan"
+      ]
+    }
+  ],
+  "Leona": [
+    {
+      "artists": [
+        "Strange Ranger"
+      ]
+    }
+  ],
+  "Rainbow Body": [
+    {
+      "artists": [
+        "Nightwave"
+      ]
+    }
+  ],
+  "Doin\u2019 Time": [
+    {
+      "artists": [
+        "Lana Del Rey"
+      ]
+    }
+  ],
+  "All My Happiness Is Gone": [
+    {
+      "artists": [
+        "Purple Mountains"
+      ]
+    }
+  ],
+  "Blame It on Your Love [ft. Lizzo]": [
+    {
+      "artists": [
+        "Charli XCX"
+      ]
+    }
+  ],
+  "For the Old World": [
+    {
+      "artists": [
+        "Mega Bog"
+      ]
+    }
+  ],
+  "I Don\u2019t Care": [
+    {
+      "artists": [
+        "Ed Sheeran",
+        "Justin Bieber"
+      ]
+    }
+  ],
+  "Omen": [
+    {
+      "artists": [
+        "Kelly Lee Owens"
+      ]
+    }
+  ],
+  "RICKY": [
+    {
+      "artists": [
+        "Denzel Curry"
+      ]
+    }
+  ],
+  "Maria": [
+    {
+      "artists": [
+        "Divino Ni\u00f1o"
+      ]
+    }
+  ],
+  "Worthy": [
+    {
+      "artists": [
+        "Palehound"
+      ]
+    }
+  ],
+  "They\u2019ll Never": [
+    {
+      "artists": [
+        "Stef Chura"
+      ]
+    }
+  ],
+  "Dawnbreaker": [
+    {
+      "artists": [
+        "Daughter of Swords"
+      ]
+    }
+  ],
+  "Mud": [
+    {
+      "artists": [
+        "Altopalo"
+      ]
+    }
+  ],
+  "Roses That Cry": [
+    {
+      "artists": [
+        "Empath"
+      ]
+    }
+  ],
+  "Hello Sunshine": [
+    {
+      "artists": [
+        "Bruce Springsteen"
+      ]
+    }
+  ],
+  "ME! [ft. Brendon Urie]": [
+    {
+      "artists": [
+        "Taylor Swift"
+      ]
+    }
+  ],
+  "Peach": [
+    {
+      "artists": [
+        "Kevin Abstract"
+      ]
+    }
+  ],
+  "Flamboyant": [
+    {
+      "artists": [
+        "Dorian Electra"
+      ]
+    }
+  ],
+  "Cellophane": [
+    {
+      "artists": [
+        "FKA twigs"
+      ]
+    }
+  ],
+  "Drunk II": [
+    {
+      "artists": [
+        "Mannequin Pussy"
+      ]
+    }
+  ],
   "Sorry - Original Demo": [
     {
       "artists": [
@@ -84,176 +253,6 @@
     {
       "artists": [
         "Inland"
-      ]
-    }
-  ],
-  "HOME": [
-    {
-      "artists": [
-        "BTS"
-      ]
-    }
-  ],
-  "Borderline": [
-    {
-      "artists": [
-        "Tame Impala"
-      ]
-    }
-  ],
-  "Salty": [
-    {
-      "artists": [
-        "KAZU"
-      ]
-    }
-  ],
-  "Little Birds, Moonbath [ft. Michelle Helene Mackenzie]": [
-    {
-      "artists": [
-        "Yu Su"
-      ]
-    }
-  ],
-  "Hard to Believe": [
-    {
-      "artists": [
-        "Charly Bliss"
-      ]
-    }
-  ],
-  "Sanguine Paradise": [
-    {
-      "artists": [
-        "Lil Uzi Vert"
-      ]
-    }
-  ],
-  "Nina": [
-    {
-      "artists": [
-        "Crumb"
-      ]
-    }
-  ],
-  "CHopstix [ft. Travis Scott]": [
-    {
-      "artists": [
-        "Schoolboy Q"
-      ]
-    }
-  ],
-  "Descending": [
-    {
-      "artists": [
-        "PJ Harvey"
-      ]
-    }
-  ],
-  "Uprated Nite Zone": [
-    {
-      "artists": [
-        "Hamilton Scalpel"
-      ]
-    }
-  ],
-  "Old Town Road (Remix) [ft. Billy Ray Cyrus]": [
-    {
-      "artists": [
-        "Lil Nas X"
-      ]
-    }
-  ],
-  "The Soft Hands of Stephen Miller": [
-    {
-      "artists": [
-        "Pile"
-      ]
-    }
-  ],
-  "Trick": [
-    {
-      "artists": [
-        "Saweetie"
-      ]
-    }
-  ],
-  "Virtual U": [
-    {
-      "artists": [
-        "Oso Leone"
-      ]
-    }
-  ],
-  "Unbearably White": [
-    {
-      "artists": [
-        "Vampire Weekend"
-      ]
-    }
-  ],
-  "Hungry Child": [
-    {
-      "artists": [
-        "Hot Chip"
-      ]
-    }
-  ],
-  "This Life": [
-    {
-      "artists": [
-        "Vampire Weekend"
-      ]
-    }
-  ],
-  "Cattails": [
-    {
-      "artists": [
-        "Big Thief"
-      ]
-    }
-  ],
-  "All of Our Yesterdays": [
-    {
-      "artists": [
-        "Mac DeMarco"
-      ]
-    }
-  ],
-  "Monopoly": [
-    {
-      "artists": [
-        "Ariana Grande",
-        "Victoria Mon\u00e9t"
-      ]
-    }
-  ],
-  "Jesus\u2019 Son": [
-    {
-      "artists": [
-        "Priests"
-      ]
-    }
-  ],
-  "Poison the Well": [
-    {
-      "artists": [
-        "Modest Mouse"
-      ]
-    }
-  ],
-  "Free Uzi": [
-    {
-      "artists": [
-        "Lil Uzi Vert"
-      ]
-    }
-  ],
-  "Con Altura": [
-    {
-      "artists": [
-        "Rosal\u00eda",
-        "J Balvin"
       ]
     }
   ]
