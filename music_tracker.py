@@ -13,6 +13,7 @@ Implements a web scraper for the website https://pitchfork.com and
 gets data on new music tracks and albums. Measures current Spotify and
 Twitter popularity of albums and tracks using Spotify and Twitter APIs.
 """
+from datetime import datetime
 import base64
 import json
 from bs4 import BeautifulSoup
@@ -196,21 +197,26 @@ def get_new_albums():
         review_list_html = soup.find_all(class_ = 'review')
 
         for review in review_list_html:
-            #decompose meta info from review html
-            extra_info = review.find(class_ = 'review__meta')
-            extra_info.decompose()
+            # check that album being reviewed is not a classic/old album
+            review_url = review.find('a')['href']
+            current_year = datetime.now().year
 
-            # get list of artists involved in current album
-            artists = review.find_all('li')
-            current_artist_list = [artist.get_text() for artist in artists]
+            if (check_album_year(review_url, str(current_year))):
+                #decompose meta info from review html
+                extra_info = review.find(class_ = 'review__meta')
+                extra_info.decompose()
 
-            # get name of current album
-            album_name = review.find('h2').get_text()
+                # get list of artists involved in current album
+                artists = review.find_all('li')
+                current_artist_list = [artist.get_text() for artist in artists]
 
-            # update new_albums dict for key = album_name,
-            # and value = list of dicts, the first being
-            # a mapping of "artists" to current_artist_list
-            new_albums[album_name] = [{"artists": current_artist_list}]
+                # get name of current album
+                album_name = review.find('h2').get_text()
+
+                # update new_albums dict for key = album_name,
+                # and value = list of dicts, the first being
+                # a mapping of "artists" to current_artist_list
+                new_albums[album_name] = [{"artists": current_artist_list}]
 
     return new_albums
 
@@ -252,9 +258,39 @@ def get_new_tracks():
 
     return new_tracks
 
+def check_album_year(album_review_url, year):
+    """
+    Checks if the album specified at 'album_review_url' is from an album
+    released in 'year'.
+
+    :param album_review_url: (string) relative URL that gets appended to
+                             BASE_PITCHFORK_URL to check album's
+                             release year
+    :param year: (string) year that we are checking the specified album
+                 was released in
+    :return: (boolean) true or false depending on if album specified was
+             released during 'year'
+    """
+    # web page of album we are checking the release year of
+    album_review_page = requests.get(BASE_PITCHFORK_URL + album_review_url)
+
+    # create BeautifulSoup object corresponding to album_review_page
+    soup = BeautifulSoup(album_review_page.text, 'html.parser')
+
+    #get html holding the release year of the album
+    year_html = soup.find(class_ = 'single-album-tombstone__meta-year')
+    year_text = year_html.get_text()[3:]
+
+    if (year_text == year):
+        return True
+    else:
+        return False
+
+
 def write_json(data, file_name):
     """
     Writes a json file containing content of given data
+
     :param data: (dictionary) dictionary containing scraped web data
     :param file_name: (string) file name we are using for the json file
     """
@@ -336,17 +372,6 @@ def add_spotify_url(new_music_dict):
             new_albums_value['spotify_url'] = spotify_url
         else:
             del new_music_dict[album]
-
-def get_tweet_volume(artist):
-    """
-    Uses Twitter API to get Twitter Volume statistic on a specified
-    music artist.
-
-    :param artist: (string) artist we are getting twitter volume for
-    :return: (int) twitter volume statistic
-    """
-
-    # awaiting implementation
 
 def main():
     # create dictionary of newly released tracks
