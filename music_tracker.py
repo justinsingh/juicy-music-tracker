@@ -18,6 +18,7 @@ import base64
 import json
 from bs4 import BeautifulSoup
 import requests
+import re
 
 # extract dictionary of API credentials from credentials.json
 with open('credentials.json') as credentials_json:
@@ -175,6 +176,20 @@ def get_spotify_url(spotify_album):
     album_url = spotify_album[album_url_index:album_url_index+53]
     return album_url
 
+def get_spotify_album_genre(spotify_album):
+    """
+    Extracts the first genre associated with an album from Spotify.
+
+    :param spotify_album: (string) the json formatted info of an album
+    :return: (string) the genre associated with spotify_album
+    """
+    res = re.findall(r'\"genres\" : \[\"(.+?)\"', spotify_album)
+    if (len(res) >= 1):
+        return res[0]
+    else:
+        return 'N/A'
+
+
 def get_new_albums():
     """
     Scrapes Pitchfork for newly released albums and returns a dictionary
@@ -322,7 +337,6 @@ def add_popularity(new_music_dict):
                            yet implemented!)
     """
     for album in list(new_music_dict):
-            # assumes add_popularity has been called with current dict
             album_id = new_music_dict[album][0]['spotify_id']
 
             if '{' not in album_id:
@@ -342,7 +356,6 @@ def add_album_image(new_music_dict):
                            yet implemented!)
     """
     for album in list(new_music_dict):
-        # assumes add_popularity has been called with current dict
         album_id = new_music_dict[album][0]['spotify_id']
 
         album_json = get_spotify_album(album_id)
@@ -362,7 +375,6 @@ def add_spotify_url(new_music_dict):
                            yet implemented!)
     """
     for album in list(new_music_dict):
-        # assumes add_popularity has been called with current dict
         album_id = new_music_dict[album][0]['spotify_id']
 
         album_json = get_spotify_album(album_id)
@@ -370,6 +382,25 @@ def add_spotify_url(new_music_dict):
         if '{' not in spotify_url:
             new_albums_value = new_music_dict[album][0]
             new_albums_value['spotify_url'] = spotify_url
+        else:
+            del new_music_dict[album]
+
+def add_album_genre(new_music_dict):
+    """
+    Search through the keys of a music dictionary and add a Spotify API
+    'genre' key for each entry of music.
+
+    :param new_music_dict: (dict) dictionary of music albums (trakcs not
+                           yet implemented!)
+    """
+    for album in list(new_music_dict):
+        album_id = new_music_dict[album][0]['spotify_id']
+
+        album_json = get_spotify_album(album_id)
+        spotify_genre = get_spotify_album_genre(album_json)
+        if '{' not in spotify_genre:
+            new_albums_value = new_music_dict[album][0]
+            new_albums_value['genre'] = spotify_genre
         else:
             del new_music_dict[album]
 
@@ -382,6 +413,9 @@ def main():
 
     # add spotify_id field to new_albums
     add_spotify_id(new_albums)
+
+    # add spotify genre field to new_albums
+    add_album_genre(new_albums)
 
     # add popularity field to new_albums
     add_popularity(new_albums)

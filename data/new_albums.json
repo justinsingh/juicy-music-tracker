@@ -1,11 +1,241 @@
 {
+  "Help Us Stranger": [
+    {
+      "artists": [
+        "The Raconteurs"
+      ],
+      "spotify_id": "12rfrkN4eZOpmJUmVzE84M",
+      "genre": "N/A",
+      "popularity": "60",
+      "album_art_url": "https://i.scdn.co/image/0e2a1d07ce0d6296a076e8daee3709f0603efb95",
+      "spotify_url": "https://open.spotify.com/album/12rfrkN4eZOpmJUmVzE84M"
+    }
+  ],
+  "Text While Driving If You Want to Meet God": [
+    {
+      "artists": [
+        "Vegyn"
+      ],
+      "spotify_id": "1g4JcuVQJwAv2w7k37nnOw",
+      "genre": "N/A",
+      "popularity": "47",
+      "album_art_url": "https://i.scdn.co/image/68ccc3e9b4f3e5f2adc9b9077cc2f574f1e86863",
+      "spotify_url": "https://open.spotify.com/album/1g4JcuVQJwAv2w7k37nnOw"
+    }
+  ],
+  "M3": [
+    {
+      "artists": [
+        "iLoveMakonnen"
+      ],
+      "spotify_id": "2AL67EF0K5GnmYeA4fPZqZ",
+      "genre": "N/A",
+      "popularity": "46",
+      "album_art_url": "https://i.scdn.co/image/feac2cec25b4978bfaeac8d52be31a01414f0cfb",
+      "spotify_url": "https://open.spotify.com/album/2AL67EF0K5GnmYeA4fPZqZ"
+    }
+  ],
+  "Dusk to Dawn": [
+    {
+      "artists": [
+        "Mr. Tophat"
+      ],
+      "spotify_id": "55cY4DCZ8mYLeNcw5EXp2R",
+      "genre": "N/A",
+      "popularity": "13",
+      "album_art_url": "https://i.scdn.co/image/8ca2534e86d16b03b73551709d61e9bd6fbd3b7e",
+      "spotify_url": "https://open.spotify.com/album/55cY4DCZ8mYLeNcw5EXp2R"
+    }
+  ],
+  "\u200bSchlagenheim": [
+    {
+      "artists": [
+        "black midi"
+      ],
+      "spotify_id": "14LuwckQuyWIvVlKrYuLzP",
+      "genre": "N/A",
+      "popularity": "48",
+      "album_art_url": "https://i.scdn.co/image/282b4b6cd0c829cf94c021c1ce46be16ae4cf879",
+      "spotify_url": "https://open.spotify.com/album/14LuwckQuyWIvVlKrYuLzP"
+    }
+  ],
+  "Gold & Grey": [
+    {
+      "artists": [
+        "Baroness"
+      ],
+      "spotify_id": "2cKZfaz7GiGtZEeQNj1RyR",
+      "genre": "N/A",
+      "popularity": "68",
+      "album_art_url": "https://i.scdn.co/image/ac59fc95d6f80b304ff4ab07c85d88a9d53fe9dd",
+      "spotify_url": "https://open.spotify.com/album/2cKZfaz7GiGtZEeQNj1RyR"
+    }
+  ],
+  "Dreems": [
+    {
+      "artists": [
+        "Cassius"
+      ],
+      "spotify_id": "0k0sWVuUrp5YGC1RDUeJzm",
+      "genre": "N/A",
+      "popularity": "52",
+      "album_art_url": "https://i.scdn.co/image/a2191407604cfa73a79ee654c6c71e2613eb7c7b",
+      "spotify_url": "https://open.spotify.com/album/0k0sWVuUrp5YGC1RDUeJzm"
+    }
+  ],
+  "Ride Me Back Home": [
+    {
+      "artists": [
+        "Willie Nelson"
+      ],
+      "spotify_id": "4eIsAOEVirxfsiQpwbhBpP",
+      "genre": "N/A",
+      "popularity": "44",
+      "album_art_url": "https://i.scdn.co/image/349363250803badab93f0111d44f8a27f90e9348",
+      "spotify_url": "https://open.spotify.com/album/4eIsAOEVirxfsiQpwbhBpP"
+    }
+  ],
+  "Patience": [
+    {
+      "artists": [
+        "Mannequin Pussy"
+      ],
+      "spotify_id": "1X0Na8DRV5U6G9grTPDWKF",
+      "genre": "N/A",
+      "popularity": "42",
+      "album_art_url": "https://i.scdn.co/image/d63d6a6f65ffa515a5b54b2230b8480709d290a2",
+      "spotify_url": "https://open.spotify.com/album/1X0Na8DRV5U6G9grTPDWKF"
+    }
+  ],
+  "Work": [
+    {
+      "artists": [
+        "Holy Ghost!"
+      ],
+      "spotify_id": "48HPgAv71lNsmM3PfhKwb0",
+      "genre": "N/A",
+      "popularity": "42",
+      "album_art_url": "https://i.scdn.co/image/29075110737c54e4d1302ff45f9538db420469a7",
+      "spotify_url": "https://open.spotify.com/album/48HPgAv71lNsmM3PfhKwb0"
+    }
+  ],
+  "The End of Radio": [
+    {
+      "artists": [
+        "Shellac"
+      ],
+      "spotify_id": "5UkFkj1yeUc08UFHLgCq75",
+      "genre": "N/A",
+      "popularity": "35",
+      "album_art_url": "https://i.scdn.co/image/eac9a1b942c05bc70f7e53294a97421ae1f73fb7",
+      "spotify_url": "https://open.spotify.com/album/5UkFkj1yeUc08UFHLgCq75"
+    }
+  ],
+  "Fog FM": [
+    {
+      "artists": [
+        "Anthony Naples"
+      ],
+      "spotify_id": "0XBtXweoCbA6MkNZ5F2NUW",
+      "genre": "N/A",
+      "popularity": "38",
+      "album_art_url": "https://i.scdn.co/image/1b9176ed263594710ec74616c46c89346f35fe05",
+      "spotify_url": "https://open.spotify.com/album/0XBtXweoCbA6MkNZ5F2NUW"
+    }
+  ],
+  "An Obelisk": [
+    {
+      "artists": [
+        "Titus Andronicus"
+      ],
+      "spotify_id": "3SyXYSj49MfR7wsmta0Pt8",
+      "genre": "N/A",
+      "popularity": "38",
+      "album_art_url": "https://i.scdn.co/image/cafc8cc5f397bc280d3fad5e20ccaff5a9dc7eec",
+      "spotify_url": "https://open.spotify.com/album/3SyXYSj49MfR7wsmta0Pt8"
+    }
+  ],
+  "How Am I Not Myself?": [
+    {
+      "artists": [
+        "French Vanilla"
+      ],
+      "spotify_id": "2BDvgKV5VGKbJ9oy4Vstq3",
+      "genre": "N/A",
+      "popularity": "34",
+      "album_art_url": "https://i.scdn.co/image/b487365a892c0daca23088728f13a071ffe41e1a",
+      "spotify_url": "https://open.spotify.com/album/2BDvgKV5VGKbJ9oy4Vstq3"
+    }
+  ],
+  "III": [
+    {
+      "artists": [
+        "Bad Books"
+      ],
+      "spotify_id": "3PvYiq2XPK1Kt9AAd1WscC",
+      "genre": "N/A",
+      "popularity": "50",
+      "album_art_url": "https://i.scdn.co/image/19a8229a87b17e5d38e99aed0819914b5aab864d",
+      "spotify_url": "https://open.spotify.com/album/3PvYiq2XPK1Kt9AAd1WscC"
+    }
+  ],
+  "7 EP": [
+    {
+      "artists": [
+        "Lil Nas X"
+      ],
+      "spotify_id": "4IRiXE5NROxknUSAUSjMoO",
+      "genre": "N/A",
+      "popularity": "80",
+      "album_art_url": "https://i.scdn.co/image/a10638c4a1fdc29cdb49333854d7aa40be66d39a",
+      "spotify_url": "https://open.spotify.com/album/4IRiXE5NROxknUSAUSjMoO"
+    }
+  ],
+  "Turn Off the News (Build a Garden)": [
+    {
+      "artists": [
+        "Lukas Nelson",
+        "Promise of the Real"
+      ],
+      "spotify_id": "4pq1gNWh38JQfazZqxjH5m",
+      "genre": "N/A",
+      "popularity": "46",
+      "album_art_url": "https://i.scdn.co/image/356da4bfbe94497e1678fcbd150e9e555da3b389",
+      "spotify_url": "https://open.spotify.com/album/4pq1gNWh38JQfazZqxjH5m"
+    }
+  ],
+  "Big Dread Moon": [
+    {
+      "artists": [
+        "Claire Cronin"
+      ],
+      "spotify_id": "27J7CGknKmWANmqsQlCLE4",
+      "genre": "N/A",
+      "popularity": "26",
+      "album_art_url": "https://i.scdn.co/image/eb899966917cbe3dd930299877084ffb20531b3d",
+      "spotify_url": "https://open.spotify.com/album/27J7CGknKmWANmqsQlCLE4"
+    }
+  ],
+  "A Bath Full of Ecstasy": [
+    {
+      "artists": [
+        "Hot Chip"
+      ],
+      "spotify_id": "6lkUImwpLYQnkiygVaMoAJ",
+      "genre": "N/A",
+      "popularity": "59",
+      "album_art_url": "https://i.scdn.co/image/cdf3ba2d05ec82a455461177049a3f49da0105dd",
+      "spotify_url": "https://open.spotify.com/album/6lkUImwpLYQnkiygVaMoAJ"
+    }
+  ],
   "Endorphins": [
     {
       "artists": [
         "Octavian "
       ],
       "spotify_id": "0EmCH3tGiC9pjgIhxsqg4e",
-      "popularity": "61",
+      "genre": "N/A",
+      "popularity": "63",
       "album_art_url": "https://i.scdn.co/image/5bd9e3329f0f12c07a4a17a1d64e63b63d345d1b",
       "spotify_url": "https://open.spotify.com/album/0EmCH3tGiC9pjgIhxsqg4e"
     }
@@ -16,9 +246,22 @@
         "Lil Keed"
       ],
       "spotify_id": "3JDiBSlLalqzv0GTEDRi8i",
-      "popularity": "67",
+      "genre": "N/A",
+      "popularity": "70",
       "album_art_url": "https://i.scdn.co/image/d860d28b7a2ec1d8afbc8cbb3dc5b870bb6f20bc",
       "spotify_url": "https://open.spotify.com/album/3JDiBSlLalqzv0GTEDRi8i"
+    }
+  ],
+  "Am I Who I Am": [
+    {
+      "artists": [
+        "PTU"
+      ],
+      "spotify_id": "6JtVvuEjHpBtzDH1tIwVsf",
+      "genre": "N/A",
+      "popularity": "21",
+      "album_art_url": "https://i.scdn.co/image/c2f11324f092e4c48f7cfc53a7dbb458aeef67b8",
+      "spotify_url": "https://open.spotify.com/album/6JtVvuEjHpBtzDH1tIwVsf"
     }
   ],
   "Diaspora": [
@@ -27,7 +270,8 @@
         "GoldLink"
       ],
       "spotify_id": "790qROmQ1y4aPEYLcSkScH",
-      "popularity": "71",
+      "genre": "N/A",
+      "popularity": "73",
       "album_art_url": "https://i.scdn.co/image/4808661ee5409b0788267f3bef288ea398efd4e4",
       "spotify_url": "https://open.spotify.com/album/790qROmQ1y4aPEYLcSkScH"
     }
@@ -38,7 +282,8 @@
         "Pelican"
       ],
       "spotify_id": "7FoulKayGkND0UetxnbxXB",
-      "popularity": "44",
+      "genre": "N/A",
+      "popularity": "45",
       "album_art_url": "https://i.scdn.co/image/40a24c5630309804127a0d5ed86b7a1460a4b088",
       "spotify_url": "https://open.spotify.com/album/7FoulKayGkND0UetxnbxXB"
     }
@@ -49,7 +294,8 @@
         "Miles Davis"
       ],
       "spotify_id": "2mth0Fzczu9JHVzoaAEucl",
-      "popularity": "23",
+      "genre": "N/A",
+      "popularity": "33",
       "album_art_url": "https://i.scdn.co/image/4707f8cf2d8c9fb3ec30ed88126f65a413c68ad3",
       "spotify_url": "https://open.spotify.com/album/2mth0Fzczu9JHVzoaAEucl"
     }
@@ -60,7 +306,8 @@
         "John Luther Adams"
       ],
       "spotify_id": "40zkIGaRGljfbXDc2Ic8EJ",
-      "popularity": "10",
+      "genre": "N/A",
+      "popularity": "16",
       "album_art_url": "https://i.scdn.co/image/baa894758fe64b49851d9ac0291383011e944daf",
       "spotify_url": "https://open.spotify.com/album/40zkIGaRGljfbXDc2Ic8EJ"
     }
@@ -71,7 +318,8 @@
         "Madonna"
       ],
       "spotify_id": "1G2YEQPXaOj1JZwa3ZiGe8",
-      "popularity": "75",
+      "genre": "N/A",
+      "popularity": "78",
       "album_art_url": "https://i.scdn.co/image/27adcbd547d0d84166fb7f8059b9fffc582f4610",
       "spotify_url": "https://open.spotify.com/album/1G2YEQPXaOj1JZwa3ZiGe8"
     }
@@ -82,6 +330,7 @@
         "Klaus Nomi"
       ],
       "spotify_id": "1BEVLMVUfXD67pbKqh56z5",
+      "genre": "N/A",
       "popularity": "29",
       "album_art_url": "https://i.scdn.co/image/f7c19e23dca2200f765beca6418a58ea84fcd299",
       "spotify_url": "https://open.spotify.com/album/1BEVLMVUfXD67pbKqh56z5"
@@ -93,9 +342,22 @@
         "Ellen Arkbro"
       ],
       "spotify_id": "5qYv34nRjU5btrCbm5C88A",
-      "popularity": "15",
+      "genre": "N/A",
+      "popularity": "18",
       "album_art_url": "https://i.scdn.co/image/95ed7265926104b816bcd19f0f89b4b1a1ea50a9",
       "spotify_url": "https://open.spotify.com/album/5qYv34nRjU5btrCbm5C88A"
+    }
+  ],
+  "Loom Dream": [
+    {
+      "artists": [
+        "Leif"
+      ],
+      "spotify_id": "0uFwR8b98B0nGsXIZBTIQy",
+      "genre": "N/A",
+      "popularity": "32",
+      "album_art_url": "https://i.scdn.co/image/b93265b2e7d8a8b1d4fffbba3ae00e0af6ea7177",
+      "spotify_url": "https://open.spotify.com/album/0uFwR8b98B0nGsXIZBTIQy"
     }
   ],
   "Jinx": [
@@ -104,7 +366,8 @@
         "Crumb"
       ],
       "spotify_id": "3vukTUpiENDHDoYTVrwqtz",
-      "popularity": "56",
+      "genre": "N/A",
+      "popularity": "58",
       "album_art_url": "https://i.scdn.co/image/9e14ee6c63829d6664026d214db35e40c00ebc31",
       "spotify_url": "https://open.spotify.com/album/3vukTUpiENDHDoYTVrwqtz"
     }
@@ -116,7 +379,8 @@
         "Iron & Wine"
       ],
       "spotify_id": "3InGlpjjfAvSi7fa7Vkuf0",
-      "popularity": "50",
+      "genre": "N/A",
+      "popularity": "52",
       "album_art_url": "https://i.scdn.co/image/a7ae9e472fc8fe50895b6e19a94a9c7a78479e8a",
       "spotify_url": "https://open.spotify.com/album/3InGlpjjfAvSi7fa7Vkuf0"
     }
@@ -127,7 +391,8 @@
         "Joey LaBeija"
       ],
       "spotify_id": "46heQerVaarWjtpwpBjBtk",
-      "popularity": "25",
+      "genre": "N/A",
+      "popularity": "27",
       "album_art_url": "https://i.scdn.co/image/d89b2671faf047db758f58e27a9a306870a13df7",
       "spotify_url": "https://open.spotify.com/album/46heQerVaarWjtpwpBjBtk"
     }
@@ -138,7 +403,8 @@
         "Fabian Almazan"
       ],
       "spotify_id": "04ExUFQO7XqAG6P70G1Yjh",
-      "popularity": "19",
+      "genre": "N/A",
+      "popularity": "21",
       "album_art_url": "https://i.scdn.co/image/48a85b7d3e2b91b632e1f3e7add5ff67ad1dfd6c",
       "spotify_url": "https://open.spotify.com/album/04ExUFQO7XqAG6P70G1Yjh"
     }
@@ -149,7 +415,8 @@
         "Vanishing Twin"
       ],
       "spotify_id": "0GiTOlUP38QYUf0TJm12DT",
-      "popularity": "39",
+      "genre": "N/A",
+      "popularity": "40",
       "album_art_url": "https://i.scdn.co/image/6172915f3f3ec234b38aef514e7c545fda3c3e66",
       "spotify_url": "https://open.spotify.com/album/0GiTOlUP38QYUf0TJm12DT"
     }
@@ -160,7 +427,8 @@
         "Bruce Springsteen"
       ],
       "spotify_id": "6BhqPpIgY83rqoZ2L78Lte",
-      "popularity": "72",
+      "genre": "N/A",
+      "popularity": "74",
       "album_art_url": "https://i.scdn.co/image/1675891ff0fdcb0c793cca5456c37255a619a8cd",
       "spotify_url": "https://open.spotify.com/album/6BhqPpIgY83rqoZ2L78Lte"
     }
@@ -171,7 +439,8 @@
         "Jonas Brothers"
       ],
       "spotify_id": "1Uf67JAtkVWfdydzFFqNF2",
-      "popularity": "87",
+      "genre": "N/A",
+      "popularity": "88",
       "album_art_url": "https://i.scdn.co/image/c342eb9057635f67484812b77d31dd97ae4a3f24",
       "spotify_url": "https://open.spotify.com/album/1Uf67JAtkVWfdydzFFqNF2"
     }
@@ -182,7 +451,8 @@
         "Bill Callahan"
       ],
       "spotify_id": "7sfkWJ14gZywjyv3wtQ5WC",
-      "popularity": "55",
+      "genre": "N/A",
+      "popularity": "57",
       "album_art_url": "https://i.scdn.co/image/4cb6205d67510fc7afd7863cf0eba08c1170bc94",
       "spotify_url": "https://open.spotify.com/album/7sfkWJ14gZywjyv3wtQ5WC"
     }
@@ -193,7 +463,8 @@
         "Bob Dylan"
       ],
       "spotify_id": "7I8ARvRuRzDghzsItBARZK",
-      "popularity": "53",
+      "genre": "N/A",
+      "popularity": "54",
       "album_art_url": "https://i.scdn.co/image/2e15486de28bb8548d9ae840583578d554f04143",
       "spotify_url": "https://open.spotify.com/album/7I8ARvRuRzDghzsItBARZK"
     }
@@ -204,7 +475,8 @@
         "Yeasayer"
       ],
       "spotify_id": "4QsIM9pEfdAE1kYKqbhJS5",
-      "popularity": "52",
+      "genre": "N/A",
+      "popularity": "53",
       "album_art_url": "https://i.scdn.co/image/a506bcba60b7dd769a1d6073d6dfb949cf10739f",
       "spotify_url": "https://open.spotify.com/album/4QsIM9pEfdAE1kYKqbhJS5"
     }
@@ -215,7 +487,8 @@
         "Polo G"
       ],
       "spotify_id": "26ztFK3E69j5THJQdyxC5w",
-      "popularity": "78",
+      "genre": "N/A",
+      "popularity": "79",
       "album_art_url": "https://i.scdn.co/image/fb56c26ac22e95c6d0c8cced0281df3063d7dfcb",
       "spotify_url": "https://open.spotify.com/album/26ztFK3E69j5THJQdyxC5w"
     }
@@ -226,7 +499,8 @@
         "Avicii"
       ],
       "spotify_id": "6Ad1E9vl75ZB3Ir87zwXIJ",
-      "popularity": "90",
+      "genre": "N/A",
+      "popularity": "91",
       "album_art_url": "https://i.scdn.co/image/5f4e25d0f16fed2bf3658efd771b1747c7b17e56",
       "spotify_url": "https://open.spotify.com/album/6Ad1E9vl75ZB3Ir87zwXIJ"
     }
@@ -237,7 +511,8 @@
         "Stef Chura"
       ],
       "spotify_id": "0PMmJ0qQByXO0ROaKYq74k",
-      "popularity": "42",
+      "genre": "N/A",
+      "popularity": "43",
       "album_art_url": "https://i.scdn.co/image/26dd683749b0d2e6680ab6374e02d147aed909fc",
       "spotify_url": "https://open.spotify.com/album/0PMmJ0qQByXO0ROaKYq74k"
     }
@@ -248,6 +523,7 @@
         "Earthen Sea"
       ],
       "spotify_id": "5BWggRFjTVj5uC1lqjjFU7",
+      "genre": "N/A",
       "popularity": "28",
       "album_art_url": "https://i.scdn.co/image/32f34232bed1a20af9d04dd2c5b988843c047511",
       "spotify_url": "https://open.spotify.com/album/5BWggRFjTVj5uC1lqjjFU7"
@@ -259,6 +535,7 @@
         "Ryuichi Sakamoto"
       ],
       "spotify_id": "5utUQchoU7S8FZbmBo0dX6",
+      "genre": "N/A",
       "popularity": "32",
       "album_art_url": "https://i.scdn.co/image/5153ec74b1c5aa8daa38dfc656f79a4652c0a176",
       "spotify_url": "https://open.spotify.com/album/5utUQchoU7S8FZbmBo0dX6"
@@ -270,7 +547,8 @@
         "Palehound"
       ],
       "spotify_id": "4rXeKYqUL4swEixXxg9KFG",
-      "popularity": "43",
+      "genre": "N/A",
+      "popularity": "44",
       "album_art_url": "https://i.scdn.co/image/f5d07770192189fc594016178d66f2f7ab9ad7cf",
       "spotify_url": "https://open.spotify.com/album/4rXeKYqUL4swEixXxg9KFG"
     }
@@ -281,7 +559,8 @@
         "Erin Durant"
       ],
       "spotify_id": "1Oa1WQAEhWilYFNPETeXAr",
-      "popularity": "11",
+      "genre": "N/A",
+      "popularity": "10",
       "album_art_url": "https://i.scdn.co/image/207354b22169824248205ae217973b4286bb7f22",
       "spotify_url": "https://open.spotify.com/album/1Oa1WQAEhWilYFNPETeXAr"
     }
@@ -292,6 +571,7 @@
         "Darkthrone"
       ],
       "spotify_id": "1uGGIlXpl6sldjRjKUv8vR",
+      "genre": "N/A",
       "popularity": "48",
       "album_art_url": "https://i.scdn.co/image/d6b6ffc71e0034ad0c6ce2feb34f22ab35815576",
       "spotify_url": "https://open.spotify.com/album/1uGGIlXpl6sldjRjKUv8vR"
@@ -303,6 +583,7 @@
         "Silversun Pickups"
       ],
       "spotify_id": "21uegMywb2yeWDupNOlz8C",
+      "genre": "N/A",
       "popularity": "57",
       "album_art_url": "https://i.scdn.co/image/d6fe6d3a7d625c68bd367a82768a51ff57ea1977",
       "spotify_url": "https://open.spotify.com/album/21uegMywb2yeWDupNOlz8C"
@@ -314,7 +595,8 @@
         "Kevin Richard Martin"
       ],
       "spotify_id": "3xVQO7DzUyDX3Ol8sy6TzN",
-      "popularity": "24",
+      "genre": "N/A",
+      "popularity": "23",
       "album_art_url": "https://i.scdn.co/image/741845256596b7bf86b72efa90408eeee6b60419",
       "spotify_url": "https://open.spotify.com/album/3xVQO7DzUyDX3Ol8sy6TzN"
     }
@@ -325,6 +607,7 @@
         "Yohuna"
       ],
       "spotify_id": "1GJRQ0yDcO0BYcpHgMQcY7",
+      "genre": "N/A",
       "popularity": "26",
       "album_art_url": "https://i.scdn.co/image/17cb6d505899552ab0fb32f11ddac6e054e503fe",
       "spotify_url": "https://open.spotify.com/album/1GJRQ0yDcO0BYcpHgMQcY7"
@@ -336,175 +619,10 @@
         "The Mattson 2"
       ],
       "spotify_id": "1dzuLc8T07fBVCvdXv5Ekr",
-      "popularity": "38",
+      "genre": "N/A",
+      "popularity": "39",
       "album_art_url": "https://i.scdn.co/image/bac6c23c497cfeace8ab1e2af689367b413ea80e",
       "spotify_url": "https://open.spotify.com/album/1dzuLc8T07fBVCvdXv5Ekr"
-    }
-  ],
-  "Weeping Choir": [
-    {
-      "artists": [
-        "Full of Hell"
-      ],
-      "spotify_id": "7ckjkkVbGQXYuEdfErmRfC",
-      "popularity": "47",
-      "album_art_url": "https://i.scdn.co/image/3948f6b4d6ac3cf6adc09c852639081117bcbd57",
-      "spotify_url": "https://open.spotify.com/album/7ckjkkVbGQXYuEdfErmRfC"
-    }
-  ],
-  "Pale Bloom": [
-    {
-      "artists": [
-        "Sarah Davachi"
-      ],
-      "spotify_id": "0R70XNTvAFIr34tqRN9viW",
-      "popularity": "29",
-      "album_art_url": "https://i.scdn.co/image/46bb81fa0ef06a4756baa257771dce3cc1c8247b",
-      "spotify_url": "https://open.spotify.com/album/0R70XNTvAFIr34tqRN9viW"
-    }
-  ],
-  "What the Brokenhearted Do...": [
-    {
-      "artists": [
-        "Tim Heidecker"
-      ],
-      "spotify_id": "573YzEr3P3O5XkJEZWmOtP",
-      "popularity": "44",
-      "album_art_url": "https://i.scdn.co/image/893b10215b2cdc718a646908637db5ed10eef1f8",
-      "spotify_url": "https://open.spotify.com/album/573YzEr3P3O5XkJEZWmOtP"
-    }
-  ],
-  "Lust for Youth": [
-    {
-      "artists": [
-        "Lust for Youth"
-      ],
-      "spotify_id": "6Q0VmOEaGjo2ZThUzBtixp",
-      "popularity": "39",
-      "album_art_url": "https://i.scdn.co/image/a762d3145a19b8802f7b4633b65e53a601510a20",
-      "spotify_url": "https://open.spotify.com/album/6Q0VmOEaGjo2ZThUzBtixp"
-    }
-  ],
-  "Spiritual 2": [
-    {
-      "artists": [
-        "TENGGER"
-      ],
-      "spotify_id": "1GRF6wjrtvSGqPiUgdvuyM",
-      "popularity": "24",
-      "album_art_url": "https://i.scdn.co/image/9a32e0c342d05194e9956205fbb777149edfa8a6",
-      "spotify_url": "https://open.spotify.com/album/1GRF6wjrtvSGqPiUgdvuyM"
-    }
-  ],
-  "Leak 04-13 (Bait Ones)": [
-    {
-      "artists": [
-        "Jai Paul"
-      ],
-      "spotify_id": "6Wsai43KQmmKlN29AWlXFr",
-      "popularity": "62",
-      "album_art_url": "https://i.scdn.co/image/703db02fc63f77df89215c25cee603ec133b83ec",
-      "spotify_url": "https://open.spotify.com/album/6Wsai43KQmmKlN29AWlXFr"
-    }
-  ],
-  "Venq Tolep": [
-    {
-      "artists": [
-        "Robag Wruhme"
-      ],
-      "spotify_id": "6nmEepTZoAsDh3qabPEWKO",
-      "popularity": "44",
-      "album_art_url": "https://i.scdn.co/image/445ee876415758ea9797771b08c0736996f62f64",
-      "spotify_url": "https://open.spotify.com/album/6nmEepTZoAsDh3qabPEWKO"
-    }
-  ],
-  "April is the Cruellest Month": [
-    {
-      "artists": [
-        "Masayuki Takayanagi New Direction Unit"
-      ],
-      "spotify_id": "2dgJnHNOhZRBWohi97zHSV",
-      "popularity": "12",
-      "album_art_url": "https://i.scdn.co/image/1d293ea2fb85596cb65576ef8473b727ed1e5639",
-      "spotify_url": "https://open.spotify.com/album/2dgJnHNOhZRBWohi97zHSV"
-    }
-  ],
-  "Out of Sight": [
-    {
-      "artists": [
-        "Jake Xerxes Fussell"
-      ],
-      "spotify_id": "7xnWwFzQokRp5lxC8R1tI4",
-      "popularity": "38",
-      "album_art_url": "https://i.scdn.co/image/32cb5f536ad9e903c000211e6e43f89231d4d0c0",
-      "spotify_url": "https://open.spotify.com/album/7xnWwFzQokRp5lxC8R1tI4"
-    }
-  ],
-  "solipsisters": [
-    {
-      "artists": [
-        "Katie Dey"
-      ],
-      "spotify_id": "1vePzMyED5SoDWcLNvyQgZ",
-      "popularity": "35",
-      "album_art_url": "https://i.scdn.co/image/b8e38e2dfd347b0bc53411c895be7e81a644c948",
-      "spotify_url": "https://open.spotify.com/album/1vePzMyED5SoDWcLNvyQgZ"
-    }
-  ],
-  "Introducing Juan Pablo": [
-    {
-      "artists": [
-        "Juan Wauters"
-      ],
-      "spotify_id": "5JCvswjbPVIJBhIcIckVCR",
-      "popularity": "40",
-      "album_art_url": "https://i.scdn.co/image/c043c23352991cf793491b7ca09d53ddcd827e60",
-      "spotify_url": "https://open.spotify.com/album/5JCvswjbPVIJBhIcIckVCR"
-    }
-  ],
-  "Mandy & the Jungle": [
-    {
-      "artists": [
-        "Santi"
-      ],
-      "spotify_id": "4IMFZY59ree679oXQS36xM",
-      "popularity": "57",
-      "album_art_url": "https://i.scdn.co/image/5b29917f0de1c495f4ae249a8e77826e437021ef",
-      "spotify_url": "https://open.spotify.com/album/4IMFZY59ree679oXQS36xM"
-    }
-  ],
-  "ZUU": [
-    {
-      "artists": [
-        "Denzel Curry"
-      ],
-      "spotify_id": "6PkSBdx19zarn4ae1D08gA",
-      "popularity": "79",
-      "album_art_url": "https://i.scdn.co/image/683e7fd26f5454047f0c8638bb5b18499e09656c",
-      "spotify_url": "https://open.spotify.com/album/6PkSBdx19zarn4ae1D08gA"
-    }
-  ],
-  "Hot Spring": [
-    {
-      "artists": [
-        "Spencer Radcliffe & Everyone Else"
-      ],
-      "spotify_id": "6zSKAfy2aaCGtFh3nLr4rw",
-      "popularity": "34",
-      "album_art_url": "https://i.scdn.co/image/565b3cd231c3e0044d0d1125783456b91e52d59f",
-      "spotify_url": "https://open.spotify.com/album/6zSKAfy2aaCGtFh3nLr4rw"
-    }
-  ],
-  "The Peyote Dance": [
-    {
-      "artists": [
-        "Soundwalk Collective",
-        "Patti Smith"
-      ],
-      "spotify_id": "37wuN51ewvD8vGttl3ZMNb",
-      "popularity": "38",
-      "album_art_url": "https://i.scdn.co/image/c26768a0ed4fdc159f25d4a908e0aedb56333dbd",
-      "spotify_url": "https://open.spotify.com/album/37wuN51ewvD8vGttl3ZMNb"
     }
   ]
 }
