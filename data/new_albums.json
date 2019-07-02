@@ -1,4 +1,197 @@
 {
+  "\u201cLet\u2019s Rock\u201d": [
+    {
+      "artists": [
+        "The Black Keys"
+      ],
+      "spotify_id": "0aA9rYw8PEv9G7tVIJ9dKg",
+      "genre": "N/A",
+      "popularity": "71",
+      "album_art_url": "https://i.scdn.co/image/ec8690d479554f867db11d32b147943b4d23fb50",
+      "spotify_url": "https://open.spotify.com/album/0aA9rYw8PEv9G7tVIJ9dKg"
+    }
+  ],
+  "DJ-Kicks": [
+    {
+      "artists": [
+        "Peggy Gou"
+      ],
+      "spotify_id": "6NYvPsNqxcFXiNkeNi3sBx",
+      "genre": "N/A",
+      "popularity": "49",
+      "album_art_url": "https://i.scdn.co/image/10e412ac1e420b632840c887409ccfc40f6f2e85",
+      "spotify_url": "https://open.spotify.com/album/6NYvPsNqxcFXiNkeNi3sBx"
+    }
+  ],
+  "The Fleeting Light of Impermanence": [
+    {
+      "artists": [
+        "The Appleseed Cast"
+      ],
+      "spotify_id": "1YIK4zD8nDqN210TJIyiPB",
+      "genre": "N/A",
+      "popularity": "32",
+      "album_art_url": "https://i.scdn.co/image/603e363d7f080d5212f12cb0d5c3244c175a9379",
+      "spotify_url": "https://open.spotify.com/album/1YIK4zD8nDqN210TJIyiPB"
+    }
+  ],
+  "I Was Real": [
+    {
+      "artists": [
+        "75 Dollar Bill"
+      ],
+      "spotify_id": "64qoWnFx2mdaRHuTsM8ORd",
+      "genre": "N/A",
+      "popularity": "16",
+      "album_art_url": "https://i.scdn.co/image/f95a6294efd8194a447065ad0cce347ef21e9a0c",
+      "spotify_url": "https://open.spotify.com/album/64qoWnFx2mdaRHuTsM8ORd"
+    }
+  ],
+  "Black Pumas": [
+    {
+      "artists": [
+        "Black Pumas"
+      ],
+      "spotify_id": "54SlWgNocRPhlZEFTYjOfW",
+      "genre": "N/A",
+      "popularity": "43",
+      "album_art_url": "https://i.scdn.co/image/fe8062e4d9d0bc3e2ef2a27e5db618331814c563",
+      "spotify_url": "https://open.spotify.com/album/54SlWgNocRPhlZEFTYjOfW"
+    }
+  ],
+  "Foam": [
+    {
+      "artists": [
+        "Divino Ni\u00f1o"
+      ],
+      "spotify_id": "3QsNakJqvIGLEjDeInXKk0",
+      "genre": "N/A",
+      "popularity": "42",
+      "album_art_url": "https://i.scdn.co/image/235c7ab8b94a26c263ae66bea8d13969973308f6",
+      "spotify_url": "https://open.spotify.com/album/3QsNakJqvIGLEjDeInXKk0"
+    }
+  ],
+  "Digital Kabar: Electronic Maloya From La R\u00e9union Since 1980": [
+    {
+      "artists": [
+        "Various Artists"
+      ],
+      "spotify_id": "1Ldw7WJ9b2EMH10BtZkIgr",
+      "genre": "N/A",
+      "popularity": "18",
+      "album_art_url": "https://i.scdn.co/image/88b7265a8bab736049eb622bfa53e9b7ff757bdb",
+      "spotify_url": "https://open.spotify.com/album/1Ldw7WJ9b2EMH10BtZkIgr"
+    }
+  ],
+  "Bandana": [
+    {
+      "artists": [
+        "Freddie Gibbs",
+        "Madlib"
+      ],
+      "spotify_id": "31KbO7WnDp2AjPdmRTJzdf",
+      "genre": "N/A",
+      "popularity": "69",
+      "album_art_url": "https://i.scdn.co/image/d8d29ef9ac6d667024830d85538de68009bf37de",
+      "spotify_url": "https://open.spotify.com/album/31KbO7WnDp2AjPdmRTJzdf"
+    }
+  ],
+  "Radish": [
+    {
+      "artists": [
+        "Big Bend"
+      ],
+      "spotify_id": "4O8IAzsJoFgmHfWri4yOcY",
+      "genre": "N/A",
+      "popularity": "14",
+      "album_art_url": "https://i.scdn.co/image/f947dfb3b70041a502f0be0b0253a19784cf0d41",
+      "spotify_url": "https://open.spotify.com/album/4O8IAzsJoFgmHfWri4yOcY"
+    }
+  ],
+  "Tears of Joy": [
+    {
+      "artists": [
+        "MIKE"
+      ],
+      "spotify_id": "0LTQhn97NYWef8DeDAsknh",
+      "genre": "N/A",
+      "popularity": "47",
+      "album_art_url": "https://i.scdn.co/image/30f7f1289ac96a41aee76be112d6aac5db30fcf7",
+      "spotify_url": "https://open.spotify.com/album/0LTQhn97NYWef8DeDAsknh"
+    }
+  ],
+  "Late Night Feelings": [
+    {
+      "artists": [
+        "Mark Ronson"
+      ],
+      "spotify_id": "6vdLdzihSWxV8FgWU2GSvA",
+      "genre": "N/A",
+      "popularity": "71",
+      "album_art_url": "https://i.scdn.co/image/22eb5aa5fbeb3aa0eac5c3de68c642e998b54f51",
+      "spotify_url": "https://open.spotify.com/album/6vdLdzihSWxV8FgWU2GSvA"
+    }
+  ],
+  "The Life of Pi\u2019erre 4": [
+    {
+      "artists": [
+        "Pi\u2019erre Bourne"
+      ],
+      "spotify_id": "0agALBMd2a8cnpbpukTg03",
+      "genre": "N/A",
+      "popularity": "67",
+      "album_art_url": "https://i.scdn.co/image/52492b2ebf7587a21678f6aa3cb8ff5428391235",
+      "spotify_url": "https://open.spotify.com/album/0agALBMd2a8cnpbpukTg03"
+    }
+  ],
+  "ANIMA": [
+    {
+      "artists": [
+        "Thom Yorke"
+      ],
+      "spotify_id": "1g4vEVvVVFvFju0gS0DMbh",
+      "genre": "N/A",
+      "popularity": "61",
+      "album_art_url": "https://i.scdn.co/image/3ecc65012582d9507bfad45fb51d7bcdfc655f96",
+      "spotify_url": "https://open.spotify.com/album/1g4vEVvVVFvFju0gS0DMbh"
+    }
+  ],
+  "Commit Yourself Completely": [
+    {
+      "artists": [
+        "Car Seat Headrest"
+      ],
+      "spotify_id": "07qr8dMQJeFc3HluFiTrhV",
+      "genre": "N/A",
+      "popularity": "48",
+      "album_art_url": "https://i.scdn.co/image/d67a2dcf7e4cd3f1779e2cb2687f6079d2a91b4f",
+      "spotify_url": "https://open.spotify.com/album/07qr8dMQJeFc3HluFiTrhV"
+    }
+  ],
+  "Keepsake": [
+    {
+      "artists": [
+        "Hatchie"
+      ],
+      "spotify_id": "1ktX9tCDx4F3bC6TdOzAas",
+      "genre": "N/A",
+      "popularity": "47",
+      "album_art_url": "https://i.scdn.co/image/fa5a02c0c3767410531973a8fb6c4350b7b6f9dd",
+      "spotify_url": "https://open.spotify.com/album/1ktX9tCDx4F3bC6TdOzAas"
+    }
+  ],
+  "All the Mirrors In the House (Home Recordings 1979 - 1986)": [
+    {
+      "artists": [
+        "His Name Is Alive"
+      ],
+      "spotify_id": "1p3jAwtkoUsHXaW4jcanVV",
+      "genre": "N/A",
+      "popularity": "29",
+      "album_art_url": "https://i.scdn.co/image/6c348c605b1be862f907ccfc2a64828e98211125",
+      "spotify_url": "https://open.spotify.com/album/1p3jAwtkoUsHXaW4jcanVV"
+    }
+  ],
   "Help Us Stranger": [
     {
       "artists": [
@@ -6,7 +199,7 @@
       ],
       "spotify_id": "12rfrkN4eZOpmJUmVzE84M",
       "genre": "N/A",
-      "popularity": "60",
+      "popularity": "64",
       "album_art_url": "https://i.scdn.co/image/0e2a1d07ce0d6296a076e8daee3709f0603efb95",
       "spotify_url": "https://open.spotify.com/album/12rfrkN4eZOpmJUmVzE84M"
     }
@@ -30,7 +223,7 @@
       ],
       "spotify_id": "2AL67EF0K5GnmYeA4fPZqZ",
       "genre": "N/A",
-      "popularity": "46",
+      "popularity": "50",
       "album_art_url": "https://i.scdn.co/image/feac2cec25b4978bfaeac8d52be31a01414f0cfb",
       "spotify_url": "https://open.spotify.com/album/2AL67EF0K5GnmYeA4fPZqZ"
     }
@@ -42,7 +235,7 @@
       ],
       "spotify_id": "55cY4DCZ8mYLeNcw5EXp2R",
       "genre": "N/A",
-      "popularity": "13",
+      "popularity": "19",
       "album_art_url": "https://i.scdn.co/image/8ca2534e86d16b03b73551709d61e9bd6fbd3b7e",
       "spotify_url": "https://open.spotify.com/album/55cY4DCZ8mYLeNcw5EXp2R"
     }
@@ -54,7 +247,7 @@
       ],
       "spotify_id": "14LuwckQuyWIvVlKrYuLzP",
       "genre": "N/A",
-      "popularity": "48",
+      "popularity": "55",
       "album_art_url": "https://i.scdn.co/image/282b4b6cd0c829cf94c021c1ce46be16ae4cf879",
       "spotify_url": "https://open.spotify.com/album/14LuwckQuyWIvVlKrYuLzP"
     }
@@ -78,7 +271,7 @@
       ],
       "spotify_id": "0k0sWVuUrp5YGC1RDUeJzm",
       "genre": "N/A",
-      "popularity": "52",
+      "popularity": "56",
       "album_art_url": "https://i.scdn.co/image/a2191407604cfa73a79ee654c6c71e2613eb7c7b",
       "spotify_url": "https://open.spotify.com/album/0k0sWVuUrp5YGC1RDUeJzm"
     }
@@ -90,7 +283,7 @@
       ],
       "spotify_id": "4eIsAOEVirxfsiQpwbhBpP",
       "genre": "N/A",
-      "popularity": "44",
+      "popularity": "49",
       "album_art_url": "https://i.scdn.co/image/349363250803badab93f0111d44f8a27f90e9348",
       "spotify_url": "https://open.spotify.com/album/4eIsAOEVirxfsiQpwbhBpP"
     }
@@ -102,7 +295,7 @@
       ],
       "spotify_id": "1X0Na8DRV5U6G9grTPDWKF",
       "genre": "N/A",
-      "popularity": "42",
+      "popularity": "51",
       "album_art_url": "https://i.scdn.co/image/d63d6a6f65ffa515a5b54b2230b8480709d290a2",
       "spotify_url": "https://open.spotify.com/album/1X0Na8DRV5U6G9grTPDWKF"
     }
@@ -114,7 +307,7 @@
       ],
       "spotify_id": "48HPgAv71lNsmM3PfhKwb0",
       "genre": "N/A",
-      "popularity": "42",
+      "popularity": "46",
       "album_art_url": "https://i.scdn.co/image/29075110737c54e4d1302ff45f9538db420469a7",
       "spotify_url": "https://open.spotify.com/album/48HPgAv71lNsmM3PfhKwb0"
     }
@@ -126,7 +319,7 @@
       ],
       "spotify_id": "5UkFkj1yeUc08UFHLgCq75",
       "genre": "N/A",
-      "popularity": "35",
+      "popularity": "36",
       "album_art_url": "https://i.scdn.co/image/eac9a1b942c05bc70f7e53294a97421ae1f73fb7",
       "spotify_url": "https://open.spotify.com/album/5UkFkj1yeUc08UFHLgCq75"
     }
@@ -138,7 +331,7 @@
       ],
       "spotify_id": "0XBtXweoCbA6MkNZ5F2NUW",
       "genre": "N/A",
-      "popularity": "38",
+      "popularity": "40",
       "album_art_url": "https://i.scdn.co/image/1b9176ed263594710ec74616c46c89346f35fe05",
       "spotify_url": "https://open.spotify.com/album/0XBtXweoCbA6MkNZ5F2NUW"
     }
@@ -150,7 +343,7 @@
       ],
       "spotify_id": "3SyXYSj49MfR7wsmta0Pt8",
       "genre": "N/A",
-      "popularity": "38",
+      "popularity": "43",
       "album_art_url": "https://i.scdn.co/image/cafc8cc5f397bc280d3fad5e20ccaff5a9dc7eec",
       "spotify_url": "https://open.spotify.com/album/3SyXYSj49MfR7wsmta0Pt8"
     }
@@ -162,7 +355,7 @@
       ],
       "spotify_id": "2BDvgKV5VGKbJ9oy4Vstq3",
       "genre": "N/A",
-      "popularity": "34",
+      "popularity": "36",
       "album_art_url": "https://i.scdn.co/image/b487365a892c0daca23088728f13a071ffe41e1a",
       "spotify_url": "https://open.spotify.com/album/2BDvgKV5VGKbJ9oy4Vstq3"
     }
@@ -174,7 +367,7 @@
       ],
       "spotify_id": "3PvYiq2XPK1Kt9AAd1WscC",
       "genre": "N/A",
-      "popularity": "50",
+      "popularity": "51",
       "album_art_url": "https://i.scdn.co/image/19a8229a87b17e5d38e99aed0819914b5aab864d",
       "spotify_url": "https://open.spotify.com/album/3PvYiq2XPK1Kt9AAd1WscC"
     }
@@ -186,7 +379,7 @@
       ],
       "spotify_id": "4IRiXE5NROxknUSAUSjMoO",
       "genre": "N/A",
-      "popularity": "80",
+      "popularity": "86",
       "album_art_url": "https://i.scdn.co/image/a10638c4a1fdc29cdb49333854d7aa40be66d39a",
       "spotify_url": "https://open.spotify.com/album/4IRiXE5NROxknUSAUSjMoO"
     }
@@ -199,7 +392,7 @@
       ],
       "spotify_id": "4pq1gNWh38JQfazZqxjH5m",
       "genre": "N/A",
-      "popularity": "46",
+      "popularity": "48",
       "album_art_url": "https://i.scdn.co/image/356da4bfbe94497e1678fcbd150e9e555da3b389",
       "spotify_url": "https://open.spotify.com/album/4pq1gNWh38JQfazZqxjH5m"
     }
@@ -223,7 +416,7 @@
       ],
       "spotify_id": "6lkUImwpLYQnkiygVaMoAJ",
       "genre": "N/A",
-      "popularity": "59",
+      "popularity": "64",
       "album_art_url": "https://i.scdn.co/image/cdf3ba2d05ec82a455461177049a3f49da0105dd",
       "spotify_url": "https://open.spotify.com/album/6lkUImwpLYQnkiygVaMoAJ"
     }
@@ -235,7 +428,7 @@
       ],
       "spotify_id": "0EmCH3tGiC9pjgIhxsqg4e",
       "genre": "N/A",
-      "popularity": "63",
+      "popularity": "65",
       "album_art_url": "https://i.scdn.co/image/5bd9e3329f0f12c07a4a17a1d64e63b63d345d1b",
       "spotify_url": "https://open.spotify.com/album/0EmCH3tGiC9pjgIhxsqg4e"
     }
@@ -247,7 +440,7 @@
       ],
       "spotify_id": "3JDiBSlLalqzv0GTEDRi8i",
       "genre": "N/A",
-      "popularity": "70",
+      "popularity": "71",
       "album_art_url": "https://i.scdn.co/image/d860d28b7a2ec1d8afbc8cbb3dc5b870bb6f20bc",
       "spotify_url": "https://open.spotify.com/album/3JDiBSlLalqzv0GTEDRi8i"
     }
@@ -259,7 +452,7 @@
       ],
       "spotify_id": "6JtVvuEjHpBtzDH1tIwVsf",
       "genre": "N/A",
-      "popularity": "21",
+      "popularity": "25",
       "album_art_url": "https://i.scdn.co/image/c2f11324f092e4c48f7cfc53a7dbb458aeef67b8",
       "spotify_url": "https://open.spotify.com/album/6JtVvuEjHpBtzDH1tIwVsf"
     }
@@ -295,7 +488,7 @@
       ],
       "spotify_id": "2mth0Fzczu9JHVzoaAEucl",
       "genre": "N/A",
-      "popularity": "33",
+      "popularity": "34",
       "album_art_url": "https://i.scdn.co/image/4707f8cf2d8c9fb3ec30ed88126f65a413c68ad3",
       "spotify_url": "https://open.spotify.com/album/2mth0Fzczu9JHVzoaAEucl"
     }
@@ -307,8 +500,8 @@
       ],
       "spotify_id": "40zkIGaRGljfbXDc2Ic8EJ",
       "genre": "N/A",
-      "popularity": "16",
-      "album_art_url": "https://i.scdn.co/image/baa894758fe64b49851d9ac0291383011e944daf",
+      "popularity": "17",
+      "album_art_url": "https://i.scdn.co/image/c579e07de0954be52e14894baa7a199dfb30ef98",
       "spotify_url": "https://open.spotify.com/album/40zkIGaRGljfbXDc2Ic8EJ"
     }
   ],
@@ -319,7 +512,7 @@
       ],
       "spotify_id": "1G2YEQPXaOj1JZwa3ZiGe8",
       "genre": "N/A",
-      "popularity": "78",
+      "popularity": "79",
       "album_art_url": "https://i.scdn.co/image/27adcbd547d0d84166fb7f8059b9fffc582f4610",
       "spotify_url": "https://open.spotify.com/album/1G2YEQPXaOj1JZwa3ZiGe8"
     }
@@ -331,7 +524,7 @@
       ],
       "spotify_id": "1BEVLMVUfXD67pbKqh56z5",
       "genre": "N/A",
-      "popularity": "29",
+      "popularity": "30",
       "album_art_url": "https://i.scdn.co/image/f7c19e23dca2200f765beca6418a58ea84fcd299",
       "spotify_url": "https://open.spotify.com/album/1BEVLMVUfXD67pbKqh56z5"
     }
@@ -355,7 +548,7 @@
       ],
       "spotify_id": "0uFwR8b98B0nGsXIZBTIQy",
       "genre": "N/A",
-      "popularity": "32",
+      "popularity": "36",
       "album_art_url": "https://i.scdn.co/image/b93265b2e7d8a8b1d4fffbba3ae00e0af6ea7177",
       "spotify_url": "https://open.spotify.com/album/0uFwR8b98B0nGsXIZBTIQy"
     }
@@ -367,7 +560,7 @@
       ],
       "spotify_id": "3vukTUpiENDHDoYTVrwqtz",
       "genre": "N/A",
-      "popularity": "58",
+      "popularity": "59",
       "album_art_url": "https://i.scdn.co/image/9e14ee6c63829d6664026d214db35e40c00ebc31",
       "spotify_url": "https://open.spotify.com/album/3vukTUpiENDHDoYTVrwqtz"
     }
@@ -392,7 +585,7 @@
       ],
       "spotify_id": "46heQerVaarWjtpwpBjBtk",
       "genre": "N/A",
-      "popularity": "27",
+      "popularity": "28",
       "album_art_url": "https://i.scdn.co/image/d89b2671faf047db758f58e27a9a306870a13df7",
       "spotify_url": "https://open.spotify.com/album/46heQerVaarWjtpwpBjBtk"
     }
@@ -404,7 +597,7 @@
       ],
       "spotify_id": "04ExUFQO7XqAG6P70G1Yjh",
       "genre": "N/A",
-      "popularity": "21",
+      "popularity": "22",
       "album_art_url": "https://i.scdn.co/image/48a85b7d3e2b91b632e1f3e7add5ff67ad1dfd6c",
       "spotify_url": "https://open.spotify.com/album/04ExUFQO7XqAG6P70G1Yjh"
     }
@@ -416,213 +609,9 @@
       ],
       "spotify_id": "0GiTOlUP38QYUf0TJm12DT",
       "genre": "N/A",
-      "popularity": "40",
+      "popularity": "41",
       "album_art_url": "https://i.scdn.co/image/6172915f3f3ec234b38aef514e7c545fda3c3e66",
       "spotify_url": "https://open.spotify.com/album/0GiTOlUP38QYUf0TJm12DT"
-    }
-  ],
-  "Western Stars": [
-    {
-      "artists": [
-        "Bruce Springsteen"
-      ],
-      "spotify_id": "6BhqPpIgY83rqoZ2L78Lte",
-      "genre": "N/A",
-      "popularity": "74",
-      "album_art_url": "https://i.scdn.co/image/1675891ff0fdcb0c793cca5456c37255a619a8cd",
-      "spotify_url": "https://open.spotify.com/album/6BhqPpIgY83rqoZ2L78Lte"
-    }
-  ],
-  "Happiness Begins": [
-    {
-      "artists": [
-        "Jonas Brothers"
-      ],
-      "spotify_id": "1Uf67JAtkVWfdydzFFqNF2",
-      "genre": "N/A",
-      "popularity": "88",
-      "album_art_url": "https://i.scdn.co/image/c342eb9057635f67484812b77d31dd97ae4a3f24",
-      "spotify_url": "https://open.spotify.com/album/1Uf67JAtkVWfdydzFFqNF2"
-    }
-  ],
-  "Shepherd in a Sheepskin Vest": [
-    {
-      "artists": [
-        "Bill Callahan"
-      ],
-      "spotify_id": "7sfkWJ14gZywjyv3wtQ5WC",
-      "genre": "N/A",
-      "popularity": "57",
-      "album_art_url": "https://i.scdn.co/image/4cb6205d67510fc7afd7863cf0eba08c1170bc94",
-      "spotify_url": "https://open.spotify.com/album/7sfkWJ14gZywjyv3wtQ5WC"
-    }
-  ],
-  "Bob Dylan: Rolling Thunder Revue: The 1975 Live Recordings": [
-    {
-      "artists": [
-        "Bob Dylan"
-      ],
-      "spotify_id": "7I8ARvRuRzDghzsItBARZK",
-      "genre": "N/A",
-      "popularity": "54",
-      "album_art_url": "https://i.scdn.co/image/2e15486de28bb8548d9ae840583578d554f04143",
-      "spotify_url": "https://open.spotify.com/album/7I8ARvRuRzDghzsItBARZK"
-    }
-  ],
-  "Erotic Reruns": [
-    {
-      "artists": [
-        "Yeasayer"
-      ],
-      "spotify_id": "4QsIM9pEfdAE1kYKqbhJS5",
-      "genre": "N/A",
-      "popularity": "53",
-      "album_art_url": "https://i.scdn.co/image/a506bcba60b7dd769a1d6073d6dfb949cf10739f",
-      "spotify_url": "https://open.spotify.com/album/4QsIM9pEfdAE1kYKqbhJS5"
-    }
-  ],
-  "Die a Legend": [
-    {
-      "artists": [
-        "Polo G"
-      ],
-      "spotify_id": "26ztFK3E69j5THJQdyxC5w",
-      "genre": "N/A",
-      "popularity": "79",
-      "album_art_url": "https://i.scdn.co/image/fb56c26ac22e95c6d0c8cced0281df3063d7dfcb",
-      "spotify_url": "https://open.spotify.com/album/26ztFK3E69j5THJQdyxC5w"
-    }
-  ],
-  "TIM": [
-    {
-      "artists": [
-        "Avicii"
-      ],
-      "spotify_id": "6Ad1E9vl75ZB3Ir87zwXIJ",
-      "genre": "N/A",
-      "popularity": "91",
-      "album_art_url": "https://i.scdn.co/image/5f4e25d0f16fed2bf3658efd771b1747c7b17e56",
-      "spotify_url": "https://open.spotify.com/album/6Ad1E9vl75ZB3Ir87zwXIJ"
-    }
-  ],
-  "Midnight": [
-    {
-      "artists": [
-        "Stef Chura"
-      ],
-      "spotify_id": "0PMmJ0qQByXO0ROaKYq74k",
-      "genre": "N/A",
-      "popularity": "43",
-      "album_art_url": "https://i.scdn.co/image/26dd683749b0d2e6680ab6374e02d147aed909fc",
-      "spotify_url": "https://open.spotify.com/album/0PMmJ0qQByXO0ROaKYq74k"
-    }
-  ],
-  "Grass and Trees": [
-    {
-      "artists": [
-        "Earthen Sea"
-      ],
-      "spotify_id": "5BWggRFjTVj5uC1lqjjFU7",
-      "genre": "N/A",
-      "popularity": "28",
-      "album_art_url": "https://i.scdn.co/image/32f34232bed1a20af9d04dd2c5b988843c047511",
-      "spotify_url": "https://open.spotify.com/album/5BWggRFjTVj5uC1lqjjFU7"
-    }
-  ],
-  "Black Mirror: Smithereens": [
-    {
-      "artists": [
-        "Ryuichi Sakamoto"
-      ],
-      "spotify_id": "5utUQchoU7S8FZbmBo0dX6",
-      "genre": "N/A",
-      "popularity": "32",
-      "album_art_url": "https://i.scdn.co/image/5153ec74b1c5aa8daa38dfc656f79a4652c0a176",
-      "spotify_url": "https://open.spotify.com/album/5utUQchoU7S8FZbmBo0dX6"
-    }
-  ],
-  "Black Friday": [
-    {
-      "artists": [
-        "Palehound"
-      ],
-      "spotify_id": "4rXeKYqUL4swEixXxg9KFG",
-      "genre": "N/A",
-      "popularity": "44",
-      "album_art_url": "https://i.scdn.co/image/f5d07770192189fc594016178d66f2f7ab9ad7cf",
-      "spotify_url": "https://open.spotify.com/album/4rXeKYqUL4swEixXxg9KFG"
-    }
-  ],
-  "Islands": [
-    {
-      "artists": [
-        "Erin Durant"
-      ],
-      "spotify_id": "1Oa1WQAEhWilYFNPETeXAr",
-      "genre": "N/A",
-      "popularity": "10",
-      "album_art_url": "https://i.scdn.co/image/207354b22169824248205ae217973b4286bb7f22",
-      "spotify_url": "https://open.spotify.com/album/1Oa1WQAEhWilYFNPETeXAr"
-    }
-  ],
-  "Old Star": [
-    {
-      "artists": [
-        "Darkthrone"
-      ],
-      "spotify_id": "1uGGIlXpl6sldjRjKUv8vR",
-      "genre": "N/A",
-      "popularity": "48",
-      "album_art_url": "https://i.scdn.co/image/d6b6ffc71e0034ad0c6ce2feb34f22ab35815576",
-      "spotify_url": "https://open.spotify.com/album/1uGGIlXpl6sldjRjKUv8vR"
-    }
-  ],
-  "Widow\u2019s Weeds": [
-    {
-      "artists": [
-        "Silversun Pickups"
-      ],
-      "spotify_id": "21uegMywb2yeWDupNOlz8C",
-      "genre": "N/A",
-      "popularity": "57",
-      "album_art_url": "https://i.scdn.co/image/d6fe6d3a7d625c68bd367a82768a51ff57ea1977",
-      "spotify_url": "https://open.spotify.com/album/21uegMywb2yeWDupNOlz8C"
-    }
-  ],
-  "Sirens": [
-    {
-      "artists": [
-        "Kevin Richard Martin"
-      ],
-      "spotify_id": "3xVQO7DzUyDX3Ol8sy6TzN",
-      "genre": "N/A",
-      "popularity": "23",
-      "album_art_url": "https://i.scdn.co/image/741845256596b7bf86b72efa90408eeee6b60419",
-      "spotify_url": "https://open.spotify.com/album/3xVQO7DzUyDX3Ol8sy6TzN"
-    }
-  ],
-  "Mirroring": [
-    {
-      "artists": [
-        "Yohuna"
-      ],
-      "spotify_id": "1GJRQ0yDcO0BYcpHgMQcY7",
-      "genre": "N/A",
-      "popularity": "26",
-      "album_art_url": "https://i.scdn.co/image/17cb6d505899552ab0fb32f11ddac6e054e503fe",
-      "spotify_url": "https://open.spotify.com/album/1GJRQ0yDcO0BYcpHgMQcY7"
-    }
-  ],
-  "Paradise": [
-    {
-      "artists": [
-        "The Mattson 2"
-      ],
-      "spotify_id": "1dzuLc8T07fBVCvdXv5Ekr",
-      "genre": "N/A",
-      "popularity": "39",
-      "album_art_url": "https://i.scdn.co/image/bac6c23c497cfeace8ab1e2af689367b413ea80e",
-      "spotify_url": "https://open.spotify.com/album/1dzuLc8T07fBVCvdXv5Ekr"
     }
   ]
 }
